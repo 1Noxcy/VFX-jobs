@@ -98,28 +98,23 @@ def smartrecruiters(s):
 def afjv(s):
     import html as H
     page = get("https://emploi.afjv.com/").text
-    A = [(m.start(), m.end(), m.group(1), " ".join(H.unescape(re.sub(r"<[^>]+>", " ", m.group(2))).split()))
-         for m in re.finditer(r'<a\s[^>]*href="([^"]+)"[^>]*>(.*?)</a>', page, re.S)]
-    offers = [a for a in A if "/emploi-jeux-video/" in a[2] and a[3]]
-    comps = [a for a in A if "/annonces-societes/" in a[2] and a[3]]
-    def near(o, prev):
-        cs = [c for c in comps if (c[1] <= o[0] if prev else c[0] >= o[1])]
-        if not cs: return 10**9, ""
-        c = cs[-1] if prev else cs[0]
-        return ((o[0] - c[1]) if prev else (c[0] - o[1])), c[3]
-    before = sum(1 if near(o, True)[0] < near(o, False)[0] else -1 for o in offers) > 0
+    txt = lambda x: " ".join(H.unescape(re.sub(r"<[^>]+>", " ", x or "")).split())
+    def field(block, cls):
+        m = re.search(r'<a[^>]*class="[^"]*\b' + cls + r'\b[^"]*"[^>]*>(.*?)</a>', block, re.S)
+        return txt(m.group(1)) if m else ""
     out = {}
-    for i, o in enumerate(offers):
-        u = o[2] if o[2].startswith("http") else "https://emploi.afjv.com" + o[2]
-        stops = [x[0] for x in offers[i + 1:i + 2]] + ([x[0] for x in comps if x[0] >= o[1]][:1] if before else []) + [o[1] + 1500]
-        seg = " ".join(H.unescape(re.sub(r"<[^>]+>", " ", re.sub(r"<a\s[^>]*>.*?</a>", " ", page[o[1]:min(stops)], flags=re.S))).split())
-        seg = re.sub(r"\b(Infographie|Conception|Programmation|Production|Presse|Communication|Commercial|Marketing|Son|Audio|Test|Management|Administration|Support|Enseignement|Formation|Animation|Autres?|Direction|Ressources humaines|Edition|\u00c9dition|Juridique|Finance)\b|/", " ", seg)
-        loc = ""
-        m = re.search(r"([A-Z\u00c0-\u00dd][\w\u00e0-\u00ff'-]*(?:[ -][A-Za-z\u00c0-\u00ff][\w\u00e0-\u00ff'-]*){0,3})\s*\((\d{2}|2A|2B)\)", seg)
-        if m: loc = m.group(1).strip()
-        elif re.search(r"t\u00e9l\u00e9travail|distanciel|remote", seg + o[3], re.I): loc = "\u00c0 distance"
-        if u not in out:
-            out[u] = {"id": u, "title": o[3], "url": u, "location": loc, "company": near(o, before)[1]}
+    for m in re.finditer(r"<section[^>]*data-ref=\"([^\"]+)\"[^>]*>(.*?)</section>", page, re.S):
+        ref, b = m.group(1), m.group(2)
+        title = field(b, "emp_pos")
+        if not title: continue
+        h = re.search(r'class="[^"]*emp_pos[^"]*"[^>]*href="([^"]+)"|href="([^"]+)"[^>]*class="[^"]*emp_pos', b)
+        href = (h.group(1) or h.group(2)) if h else "/emploi-jeux-video/" + ref
+        u = href if href.startswith("http") else "https://emploi.afjv.com" + href
+        loc = re.sub(r"\s*\(\s*(\d{2}|2A|2B)\s*\)\s*$", "", field(b, "emp_vil"))
+        if re.search(r"distanciel|t\u00e9l\u00e9travail|remote", title, re.I) and not loc: loc = "\u00c0 distance"
+        out[u] = {"id": u, "title": title, "url": u, "location": loc, "company": field(b, "empt_soc")}
+    if not out:
+        raise ValueError("format de la page AFJV non reconnu (aucune offre lue)")
     return list(out.values())
 
 def workable(s):
