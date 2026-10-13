@@ -1,53 +1,25 @@
 [
  {
-  "name": "Ubisoft Paris",
-  "city": "Paris",
+  "name": "Ubisoft (France)",
+  "city": "Paris, Montpellier, Annecy, Bordeaux…",
   "country": "FR",
   "url": "https://www.ubisoft.com/fr-fr/company/careers/search",
-  "ats": "page",
-  "slug": null,
+  "ats": "smartrecruiters",
+  "slug": "Ubisoft2",
   "confirmed": true,
-  "email": null
+  "email": null,
+  "filter_country": "fr"
  },
  {
-  "name": "Ubisoft Montreuil",
-  "city": "Montreuil",
-  "country": "FR",
-  "url": "https://www.ubisoft.com/fr-fr/company/careers/search",
-  "ats": "page",
-  "slug": null,
+  "name": "Ubisoft (Canada)",
+  "city": "Montréal, Québec, Toronto…",
+  "country": "CA",
+  "url": "https://www.ubisoft.com/fr-ca/company/careers/search",
+  "ats": "smartrecruiters",
+  "slug": "Ubisoft2",
   "confirmed": true,
-  "email": null
- },
- {
-  "name": "Ubisoft Annecy",
-  "city": "Annecy",
-  "country": "FR",
-  "url": "https://www.ubisoft.com/fr-fr/company/careers/search",
-  "ats": "page",
-  "slug": null,
-  "confirmed": true,
-  "email": null
- },
- {
-  "name": "Ubisoft Bordeaux",
-  "city": "Bordeaux",
-  "country": "FR",
-  "url": "https://www.ubisoft.com/fr-fr/company/careers/search",
-  "ats": "page",
-  "slug": null,
-  "confirmed": true,
-  "email": null
- },
- {
-  "name": "Ubisoft Montpellier",
-  "city": "Montpellier",
-  "country": "FR",
-  "url": "https://www.ubisoft.com/fr-fr/company/careers/search",
-  "ats": "page",
-  "slug": null,
-  "confirmed": true,
-  "email": null
+  "email": null,
+  "filter_country": "ca"
  },
  {
   "name": "Gameloft Paris",
@@ -83,20 +55,20 @@
   "name": "Asobo Studio",
   "city": "Bordeaux",
   "country": "FR",
-  "url": "https://www.asobostudio.com/fr/carriere",
-  "ats": "page",
-  "slug": null,
-  "confirmed": false,
+  "url": "https://jobs.eu.lever.co/asobostudio",
+  "ats": "lever_eu",
+  "slug": "asobostudio",
+  "confirmed": true,
   "email": null
  },
  {
   "name": "Don't Nod",
   "city": "Paris",
   "country": "FR",
-  "url": "https://dont-nod.com/fr/offres-emploi/",
-  "ats": "page",
-  "slug": null,
-  "confirmed": false,
+  "url": "https://jobs.smartrecruiters.com/DONTNOD",
+  "ats": "smartrecruiters",
+  "slug": "DONTNOD",
+  "confirmed": true,
   "email": null
  },
  {
