@@ -22,14 +22,15 @@
   "filter_country": "ca"
  },
  {
-  "name": "Gameloft Paris",
+  "name": "Gameloft (France)",
   "city": "Paris",
   "country": "FR",
-  "url": "https://www.fr.gameloft.com/jobs",
-  "ats": "page",
-  "slug": null,
-  "confirmed": false,
-  "email": null
+  "url": "https://careers.smartrecruiters.com/Gameloft",
+  "ats": "smartrecruiters",
+  "slug": "Gameloft",
+  "confirmed": true,
+  "email": null,
+  "filter_country": "fr"
  },
  {
   "name": "Quantic Dream",
@@ -198,7 +199,7 @@
   "name": "Microids",
   "city": "Paris",
   "country": "FR",
-  "url": "https://voodoo.io/careers#jobs",
+  "url": "https://www.microids.com/jobs/",
   "ats": "page",
   "slug": null,
   "confirmed": false,
@@ -208,7 +209,7 @@
   "name": "Passtech Games",
   "city": "Lyon",
   "country": "FR",
-  "url": "https://www.microids.com/jobs/",
+  "url": "https://www.passtechgames.com/careers/",
   "ats": "page",
   "slug": null,
   "confirmed": false,
@@ -231,11 +232,13 @@
   "name": "Artefacts Studio",
   "city": "Lyon",
   "country": "FR",
-  "url": "https://www.passtechgames.com/careers/",
-  "ats": "page",
+  "url": null,
+  "ats": null,
   "slug": null,
   "confirmed": false,
-  "email": null
+  "email": null,
+  "contact": "https://www.artefacts-studio.fr/",
+  "note": "Pas de page offres confirmée : candidature spontanée via le site."
  },
  {
   "name": "Black Muffin",
@@ -556,5 +559,266 @@
   "confirmed": true,
   "email": null,
   "note": "Site de l'Agence française pour le jeu vidéo : les studios y publient eux-mêmes leurs offres. Couvre aussi des studios absents de la liste."
+ },
+ {
+  "name": "Gameloft (Canada)",
+  "city": "Montréal",
+  "country": "CA",
+  "url": "https://careers.smartrecruiters.com/Gameloft",
+  "ats": "smartrecruiters",
+  "slug": "Gameloft",
+  "confirmed": true,
+  "email": null,
+  "filter_country": "ca"
+ },
+ {
+  "name": "People Can Fly",
+  "city": "Montréal",
+  "country": "CA",
+  "url": "https://careers.smartrecruiters.com/PeopleCanFly",
+  "ats": "smartrecruiters",
+  "slug": "PeopleCanFly",
+  "confirmed": true,
+  "email": null,
+  "filter_country": "ca"
+ },
+ {
+  "name": "Kabam",
+  "city": "Vancouver",
+  "country": "CA",
+  "url": "https://jobs.lever.co/kabam",
+  "ats": "lever",
+  "slug": "kabam",
+  "confirmed": true,
+  "email": null,
+  "filter_loc": "canada|montr|qu[ée]bec|toronto|vancouver|burnaby|ontario|british columbia|\\bbc\\b|\\bqc\\b|\\bon\\b|alberta|edmonton|ottawa|halifax|sherbrooke|victoria"
+ },
+ {
+  "name": "Blackbird Interactive",
+  "city": "Vancouver",
+  "country": "CA",
+  "url": "https://jobs.lever.co/blackbirdinteractive",
+  "ats": "lever",
+  "slug": "blackbirdinteractive",
+  "confirmed": true,
+  "email": null
+ },
+ {
+  "name": "SkyBox Labs",
+  "city": "Burnaby (Vancouver)",
+  "country": "CA",
+  "url": "https://jobs.lever.co/skyboxlabs",
+  "ats": "lever",
+  "slug": "skyboxlabs",
+  "confirmed": true,
+  "email": null
+ },
+ {
+  "name": "Larian Studios (Québec)",
+  "city": "Québec",
+  "country": "CA",
+  "url": "https://jobs.lever.co/larian",
+  "ats": "lever",
+  "slug": "larian",
+  "confirmed": true,
+  "email": null,
+  "filter_loc": "canada|montr|qu[ée]bec|toronto|vancouver|burnaby|ontario|british columbia|\\bbc\\b|\\bqc\\b|\\bon\\b|alberta|edmonton|ottawa|halifax|sherbrooke|victoria"
+ },
+ {
+  "name": "Reflector Entertainment",
+  "city": "Montréal",
+  "country": "CA",
+  "url": "https://jobs.lever.co/reflectorentertainment",
+  "ats": "lever",
+  "slug": "reflectorentertainment",
+  "confirmed": true,
+  "email": null
+ },
+ {
+  "name": "Gearbox Québec",
+  "city": "Québec",
+  "country": "CA",
+  "url": "https://job-boards.greenhouse.io/gearboxquebec",
+  "ats": "greenhouse",
+  "slug": "gearboxquebec",
+  "confirmed": true,
+  "email": null
+ },
+ {
+  "name": "KRAFTON Montréal",
+  "city": "Montréal",
+  "country": "CA",
+  "url": "https://job-boards.greenhouse.io/studiokraftonboard",
+  "ats": "greenhouse",
+  "slug": "studiokraftonboard",
+  "confirmed": true,
+  "email": null,
+  "filter_loc": "canada|montr|qu[ée]bec|toronto|vancouver|burnaby|ontario|british columbia|\\bbc\\b|\\bqc\\b|\\bon\\b|alberta|edmonton|ottawa|halifax|sherbrooke|victoria"
+ },
+ {
+  "name": "Highdive",
+  "city": "Montréal",
+  "country": "CA",
+  "url": "https://job-boards.greenhouse.io/highdive",
+  "ats": "greenhouse",
+  "slug": "highdive",
+  "confirmed": true,
+  "email": null
+ },
+ {
+  "name": "2K (Canada)",
+  "city": "Montréal",
+  "country": "CA",
+  "url": "https://job-boards.greenhouse.io/2k",
+  "ats": "greenhouse",
+  "slug": "2k",
+  "confirmed": true,
+  "email": null,
+  "filter_loc": "canada|montr|qu[ée]bec|toronto|vancouver|burnaby|ontario|british columbia|\\bbc\\b|\\bqc\\b|\\bon\\b|alberta|edmonton|ottawa|halifax|sherbrooke|victoria"
+ },
+ {
+  "name": "Haven Studios",
+  "city": "Montréal",
+  "country": "CA",
+  "url": "https://job-boards.greenhouse.io/havenenglish",
+  "ats": "greenhouse",
+  "slug": "havenenglish",
+  "confirmed": true,
+  "email": null
+ },
+ {
+  "name": "Digital Extremes",
+  "city": "London (Ontario)",
+  "country": "CA",
+  "url": "https://job-boards.greenhouse.io/digitalextremes",
+  "ats": "greenhouse",
+  "slug": "digitalextremes",
+  "confirmed": true,
+  "email": null
+ },
+ {
+  "name": "Keywords Studios (Canada)",
+  "city": "Montréal, etc.",
+  "country": "CA",
+  "url": "https://apply.workable.com/keywords-intl1/",
+  "ats": "workable",
+  "slug": "keywords-intl1",
+  "confirmed": true,
+  "email": null,
+  "filter_loc": "canada|montr|qu[ée]bec|toronto|vancouver|burnaby|ontario|british columbia|\\bbc\\b|\\bqc\\b|\\bon\\b|alberta|edmonton|ottawa|halifax|sherbrooke|victoria",
+  "note": "Gros employeur de testeurs QA (aussi à l'intérieur d'autres studios, ex. WB Games Montréal) : une porte d'entrée réaliste."
+ },
+ {
+  "name": "Eidos-Montréal",
+  "city": "Montréal",
+  "country": "CA",
+  "url": "https://www.eidosmontreal.com/careers/",
+  "ats": "page",
+  "slug": null,
+  "confirmed": false,
+  "email": null
+ },
+ {
+  "name": "Capybara Games",
+  "city": "Toronto",
+  "country": "CA",
+  "url": "https://capybaragames.com/careers",
+  "ats": "page",
+  "slug": null,
+  "confirmed": false,
+  "email": null
+ },
+ {
+  "name": "Hothead Games",
+  "city": "Vancouver",
+  "country": "CA",
+  "url": "https://hotheadgames.com/careers",
+  "ats": "page",
+  "slug": null,
+  "confirmed": false,
+  "email": null
+ },
+ {
+  "name": "WB Games Montréal",
+  "city": "Montréal",
+  "country": "CA",
+  "url": null,
+  "ats": null,
+  "slug": null,
+  "confirmed": false,
+  "email": null,
+  "contact": "https://wbgamesmontreal.com/",
+  "note": "Offres publiées sur wbgamesmontreal.com/jobs/ ; liste complète pas encore lisible automatiquement."
+ },
+ {
+  "name": "Electronic Arts (Motive Montréal, EA Vancouver)",
+  "city": "Montréal, Vancouver",
+  "country": "CA",
+  "url": null,
+  "ats": null,
+  "slug": null,
+  "confirmed": false,
+  "email": null,
+  "contact": "https://jobs.ea.com/en_US/careers/SearchJobs",
+  "note": "Moteur de recherche EA mondial, pas lisible automatiquement : filtrer Canada à la main."
+ },
+ {
+  "name": "Beenox (Activision)",
+  "city": "Québec",
+  "country": "CA",
+  "url": null,
+  "ats": null,
+  "slug": null,
+  "confirmed": false,
+  "email": null,
+  "contact": "https://www.beenox.com/",
+  "note": "Offres via le site carrières d'Activision."
+ },
+ {
+  "name": "Red Barrels",
+  "city": "Montréal",
+  "country": "CA",
+  "url": null,
+  "ats": null,
+  "slug": null,
+  "confirmed": false,
+  "email": null,
+  "note": "Studio d'Outlast. Pas de page carrières officielle trouvée ; offres vues sur des sites tiers (ex. animateur de jouabilité)."
+ },
+ {
+  "name": "Sabotage Studio",
+  "city": "Québec",
+  "country": "CA",
+  "url": null,
+  "ats": null,
+  "slug": null,
+  "confirmed": false,
+  "email": null,
+  "contact": "https://sabotagestudio.com/fr/",
+  "note": "Studio de Sea of Stars. Pas de page carrières trouvée."
+ },
+ {
+  "name": "Thunder Lotus Games",
+  "city": "Montréal",
+  "country": "CA",
+  "url": null,
+  "ats": null,
+  "slug": null,
+  "confirmed": false,
+  "email": null,
+  "contact": "https://thunderlotusgames.com/",
+  "note": "Les offres sont publiées sur leur site (rubrique Careers / Job opportunities)."
+ },
+ {
+  "name": "Relic Entertainment",
+  "city": "Vancouver",
+  "country": "CA",
+  "url": null,
+  "ats": null,
+  "slug": null,
+  "confirmed": false,
+  "email": null,
+  "contact": "https://www.relic.com/",
+  "note": "Les candidatures passent par relic.com."
  }
 ]

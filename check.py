@@ -4,22 +4,31 @@ from html.parser import HTMLParser
 import requests
 
 UA = {"User-Agent": "Mozilla/5.0 (veille-offres perso; 1 requete par studio / 5h)"}
-PRIO = ["vfx", "niagara", "technical artist", "tech artist", "technical animator", "unreal", "fx artist", "effects", "shader", "lighting artist", "effets sp\u00e9ciaux", "effets visuels"]
-SEC = [r"\bqa\b", r"\btest(er|eur|euse)\b", r"spontan", r"environment artist", r"level (artist|design)",
-       r"3d (character |prop |environment )?artist", r"artiste 3d", r"artiste", r"\bartist\b", r"animat(or|eur|rice|trice)",
-       r"generalist artist", r"g\u00e9n\u00e9raliste 3d", r"modeler|modeleur|modeling|mod\u00e9lisation", r"technical art"]
-NEG = r"\b(hr|rh|business partner|recruit|talent acquisition|marketing|finance|financial|sales|payable|brand|communication|legal)\b"
+# --- Pertinence selon le CV : Real-Time VFX Artist / Unreal Generalist (Niagara, Blueprints, Landscape, Level Design, lighting) ---
+VFX = r"vfx|\bfx\b|niagara|effets? sp\u00e9ciaux|effets? visuels|visual effects|realtime effects|real-time effects"
+CORE = VFX + r"|technical artist|tech artist|artiste technique|shader|material artist|lighting artist|artiste (d.)?\u00e9clairage|lighter\b|level artist|artiste de niveaux?|unreal (generalist|artist)|g\u00e9n\u00e9raliste unreal"
+OK = (r"\bqa\b|\btest(er|eur|euse)s?\b|assurance qualit\u00e9|quality assurance|environment artist|artiste (d.)?environnement|level design|concepteur.{0,6} de niveau"
+      r"|generalist|g\u00e9n\u00e9raliste|3d artist|artiste 3d|graphiste 3d|prop artist|vehicle artist|weapons? artist|artiste (de )?props?|modeler|modeleur|mod\u00e9lis|hard.?surface"
+      r"|texture artist|texturing|cinematic artist|world build|landscape|spontan|\bunreal\b")
+NOT_FIT = (r"character|personnage|animat|rigg|\bui\b|\bux\b|interface|\b2d\b|pixel|illustrat|concept art|sound|audio|narrative|narrati"
+           r"|community|data|producer|producteur|game designer|concepteur de jeu|writer|r\u00e9dact")
+NEG = r"\b(hr|rh|business partner|recruit|talent acquisition|marketing|finance|financial|sales|payable|brand|communication|legal|it)\b"
+BOSS = r"\b(lead|director|directeur|directrice|head|principal|manager|gestionnaire|chef|cheffe|superviseur|supervisor)\b"
 GENERIC = {"lire la suite", "read more", "consult", "consulter", "backstage", "en savoir plus", "learn more", "voir plus",
            "view all", "see all jobs", "\u00e9tudiants et jeunes dipl\u00f4m\u00e9s"}
-JOBWORDS = PRIO + SEC + ["artist", "artiste", "designer", "3d"]
+JOBWORDS = ["vfx", "fx", "niagara", "artist", "artiste", "designer", "3d", "qa", "test", "unreal", "stage", "intern", "level", "spontan"]
 
 def score(t):
+    """2 = coeur de metier (VFX temps reel, tech art, level art, lighting) ; 1 = accessible et coherent avec le CV ; 0 = hors profil."""
     t = t.lower()
+    vfx = re.search(VFX, t)
     if re.search(NEG, t): return 0
-    if re.search(r"program|d\u00e9velopp|developer|\bdev\b|engineer|ing\u00e9nieur", t) and not re.search(r"\bqa\b|test|artist|animat", t):
-        return 0
-    if any(k in t for k in PRIO): return 2
-    if any(re.search(k, t) for k in SEC): return 1
+    if re.search(r"program|d\u00e9velopp|developer|\bdev\b|engineer|ing\u00e9nieur", t) and not re.search(r"\bqa\b|test|artist", t): return 0
+    if re.search(BOSS, t) and not vfx: return 0
+    if vfx: return 2
+    if re.search(NOT_FIT, t) and not re.search(r"\bqa\b|test", t): return 0
+    if re.search(CORE, t): return 2
+    if re.search(OK, t): return 1
     return 0
 
 def clean_title(t):
@@ -102,9 +111,22 @@ def afjv(s):
             out[u] = {"id": u, "title": o[3], "url": u, "location": "", "company": near(o, before)[1]}
     return list(out.values())
 
+def workable(s):
+    d = get(f"https://apply.workable.com/api/v1/widget/accounts/{s['slug']}").json()
+    return [{"id": j.get("shortcode") or j["url"], "title": j["title"],
+             "location": ", ".join(x for x in (j.get("city"), j.get("state"), j.get("country")) if x),
+             "url": j.get("url") or f"https://apply.workable.com/{s['slug']}/j/{j['shortcode']}/"} for j in d.get("jobs", [])]
+
 LOC = re.compile(r"^[\w .'-]+, [A-Z]{2,3}, [\w .'-]+$")
 
 def fetch(s):
+    jobs = fetch_raw(s)
+    if s.get("filter_loc"):
+        jobs = [j for j in jobs if re.search(s["filter_loc"], j.get("location") or "", re.I)]
+    return jobs
+
+def fetch_raw(s):
+    if s["ats"] == "workable": return workable(s)
     if s["ats"] == "smartrecruiters": return smartrecruiters(s)
     if s["ats"] == "afjv": return afjv(s)
     a = s["ats"]
