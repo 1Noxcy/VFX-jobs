@@ -1,0 +1,612 @@
+[
+ {
+  "name": "Ubisoft Paris",
+  "city": "Paris",
+  "country": "FR",
+  "url": "https://www.ubisoft.com/fr-fr/company/careers/search",
+  "ats": "page",
+  "slug": null,
+  "confirmed": true,
+  "email": null
+ },
+ {
+  "name": "Ubisoft Montreuil",
+  "city": "Montreuil",
+  "country": "FR",
+  "url": "https://www.ubisoft.com/fr-fr/company/careers/search",
+  "ats": "page",
+  "slug": null,
+  "confirmed": true,
+  "email": null
+ },
+ {
+  "name": "Ubisoft Annecy",
+  "city": "Annecy",
+  "country": "FR",
+  "url": "https://www.ubisoft.com/fr-fr/company/careers/search",
+  "ats": "page",
+  "slug": null,
+  "confirmed": true,
+  "email": null
+ },
+ {
+  "name": "Ubisoft Bordeaux",
+  "city": "Bordeaux",
+  "country": "FR",
+  "url": "https://www.ubisoft.com/fr-fr/company/careers/search",
+  "ats": "page",
+  "slug": null,
+  "confirmed": true,
+  "email": null
+ },
+ {
+  "name": "Ubisoft Montpellier",
+  "city": "Montpellier",
+  "country": "FR",
+  "url": "https://www.ubisoft.com/fr-fr/company/careers/search",
+  "ats": "page",
+  "slug": null,
+  "confirmed": true,
+  "email": null
+ },
+ {
+  "name": "Gameloft Paris",
+  "city": "Paris",
+  "country": "FR",
+  "url": "https://www.fr.gameloft.com/jobs",
+  "ats": "page",
+  "slug": null,
+  "confirmed": false,
+  "email": null
+ },
+ {
+  "name": "Quantic Dream",
+  "city": "Paris",
+  "country": "FR",
+  "url": "https://jobs.eu.lever.co/quanticdream",
+  "ats": "lever_eu",
+  "slug": "quanticdream",
+  "confirmed": true,
+  "email": null
+ },
+ {
+  "name": "Arkane Studios Lyon",
+  "city": "Lyon",
+  "country": "FR",
+  "url": "https://jobs.zenimax.com/",
+  "ats": "page",
+  "slug": null,
+  "confirmed": false,
+  "email": null
+ },
+ {
+  "name": "Asobo Studio",
+  "city": "Bordeaux",
+  "country": "FR",
+  "url": "https://www.asobostudio.com/fr/carriere",
+  "ats": "page",
+  "slug": null,
+  "confirmed": false,
+  "email": null
+ },
+ {
+  "name": "Don't Nod",
+  "city": "Paris",
+  "country": "FR",
+  "url": "https://dont-nod.com/fr/offres-emploi/",
+  "ats": "page",
+  "slug": null,
+  "confirmed": false,
+  "email": null
+ },
+ {
+  "name": "Focus Entertainment / Pullup",
+  "city": "Paris",
+  "country": "FR",
+  "url": "https://www.pullupentertainment.com/careers/",
+  "ats": "page",
+  "slug": null,
+  "confirmed": false,
+  "email": null
+ },
+ {
+  "name": "Nacon",
+  "city": "Lesquin",
+  "country": "FR",
+  "url": "https://corporate.nacongaming.com/career/",
+  "ats": "page",
+  "slug": null,
+  "confirmed": false,
+  "email": null
+ },
+ {
+  "name": "Cyanide",
+  "city": "Nanterre",
+  "country": "FR",
+  "url": "https://cyanide-studio.com/fr/nous-rejoindre/",
+  "ats": "page",
+  "slug": null,
+  "confirmed": false,
+  "email": null
+ },
+ {
+  "name": "Kylotonn (KT Racing)",
+  "city": "Paris",
+  "country": "FR",
+  "url": "https://kylotonn.com/en/careers/",
+  "ats": "page",
+  "slug": null,
+  "confirmed": false,
+  "email": null
+ },
+ {
+  "name": "Amplitude Studios",
+  "city": "Paris",
+  "country": "FR",
+  "url": "https://www.amplitude-studios.com/#Careers",
+  "ats": "page",
+  "slug": null,
+  "confirmed": false,
+  "email": null
+ },
+ {
+  "name": "Ankama",
+  "city": "Roubaix",
+  "country": "FR",
+  "url": "https://recrutement.ankama.com/jobs",
+  "ats": "page",
+  "slug": null,
+  "confirmed": false,
+  "email": "jobs@ankama.com"
+ },
+ {
+  "name": "Shiro Games",
+  "city": "Bordeaux",
+  "country": "FR",
+  "url": "https://jobs.shirogames.com/",
+  "ats": "page",
+  "slug": null,
+  "confirmed": true,
+  "email": "jobs@shirogames.com"
+ },
+ {
+  "name": "Evil Empire",
+  "city": "Paris",
+  "country": "FR",
+  "url": "https://evilempire.co.uk/team/careers/",
+  "ats": "page",
+  "slug": null,
+  "confirmed": false,
+  "email": null
+ },
+ {
+  "name": "Sloclap",
+  "city": "Paris",
+  "country": "FR",
+  "url": "https://careers.sloclap.com/jobs",
+  "ats": "page",
+  "slug": null,
+  "confirmed": true,
+  "email": null
+ },
+ {
+  "name": "Dotemu",
+  "city": "Paris",
+  "country": "FR",
+  "url": "https://www.dotemu.com/jobs/",
+  "ats": "page",
+  "slug": null,
+  "confirmed": false,
+  "email": null
+ },
+ {
+  "name": "Sandfall Interactive",
+  "city": "Occitanie (Montpellier)",
+  "country": "FR",
+  "url": "https://www.sandfall.co/",
+  "ats": "page",
+  "slug": null,
+  "confirmed": false,
+  "email": null
+ },
+ {
+  "name": "Voodoo",
+  "city": "Paris",
+  "country": "FR",
+  "url": "https://voodoo.io/careers#jobs",
+  "ats": "page",
+  "slug": null,
+  "confirmed": false,
+  "email": null
+ },
+ {
+  "name": "Microids",
+  "city": "Paris",
+  "country": "FR",
+  "url": "https://voodoo.io/careers#jobs",
+  "ats": "page",
+  "slug": null,
+  "confirmed": false,
+  "email": null
+ },
+ {
+  "name": "Drakhar Studio",
+  "city": "Lyon",
+  "country": "FR",
+  "url": null,
+  "ats": null,
+  "slug": null,
+  "confirmed": false,
+  "email": null
+ },
+ {
+  "name": "Passtech Games",
+  "city": "Lyon",
+  "country": "FR",
+  "url": "https://www.microids.com/jobs/",
+  "ats": "page",
+  "slug": null,
+  "confirmed": false,
+  "email": null
+ },
+ {
+  "name": "Old Skull Games",
+  "city": "Lyon",
+  "country": "FR",
+  "url": null,
+  "ats": null,
+  "slug": null,
+  "confirmed": false,
+  "email": null
+ },
+ {
+  "name": "Artefacts Studio",
+  "city": "Lyon",
+  "country": "FR",
+  "url": "https://www.passtechgames.com/careers/",
+  "ats": "page",
+  "slug": null,
+  "confirmed": false,
+  "email": null
+ },
+ {
+  "name": "Kiupe",
+  "city": "Auvergne-Rhône-Alpes",
+  "country": "FR",
+  "url": null,
+  "ats": null,
+  "slug": null,
+  "confirmed": false,
+  "email": null
+ },
+ {
+  "name": "Kiniro",
+  "city": "Auvergne-Rhône-Alpes",
+  "country": "FR",
+  "url": null,
+  "ats": null,
+  "slug": null,
+  "confirmed": false,
+  "email": null
+ },
+ {
+  "name": "Upper Byte",
+  "city": "Auvergne-Rhône-Alpes",
+  "country": "FR",
+  "url": null,
+  "ats": null,
+  "slug": null,
+  "confirmed": false,
+  "email": null
+ },
+ {
+  "name": "Agharta Studio",
+  "city": "Auvergne-Rhône-Alpes",
+  "country": "FR",
+  "url": null,
+  "ats": null,
+  "slug": null,
+  "confirmed": false,
+  "email": null
+ },
+ {
+  "name": "Little Worlds Studio",
+  "city": "Auvergne-Rhône-Alpes",
+  "country": "FR",
+  "url": null,
+  "ats": null,
+  "slug": null,
+  "confirmed": false,
+  "email": null
+ },
+ {
+  "name": "Mi-Clos Studio",
+  "city": "Auvergne-Rhône-Alpes",
+  "country": "FR",
+  "url": null,
+  "ats": null,
+  "slug": null,
+  "confirmed": false,
+  "email": null
+ },
+ {
+  "name": "Black Muffin",
+  "city": "Auvergne-Rhône-Alpes",
+  "country": "FR",
+  "url": null,
+  "ats": null,
+  "slug": null,
+  "confirmed": false,
+  "email": null
+ },
+ {
+  "name": "OSome Studio",
+  "city": "Auvergne-Rhône-Alpes",
+  "country": "FR",
+  "url": null,
+  "ats": null,
+  "slug": null,
+  "confirmed": false,
+  "email": null
+ },
+ {
+  "name": "Studio Chahut",
+  "city": "Auvergne-Rhône-Alpes",
+  "country": "FR",
+  "url": null,
+  "ats": null,
+  "slug": null,
+  "confirmed": false,
+  "email": null
+ },
+ {
+  "name": "Lugludum",
+  "city": "Auvergne-Rhône-Alpes",
+  "country": "FR",
+  "url": null,
+  "ats": null,
+  "slug": null,
+  "confirmed": false,
+  "email": null
+ },
+ {
+  "name": "Tabemasu Games",
+  "city": "Auvergne-Rhône-Alpes",
+  "country": "FR",
+  "url": null,
+  "ats": null,
+  "slug": null,
+  "confirmed": false,
+  "email": null
+ },
+ {
+  "name": "Pango Studio",
+  "city": "Auvergne-Rhône-Alpes",
+  "country": "FR",
+  "url": null,
+  "ats": null,
+  "slug": null,
+  "confirmed": false,
+  "email": null
+ },
+ {
+  "name": "Magiko Gaming",
+  "city": "Auvergne-Rhône-Alpes",
+  "country": "FR",
+  "url": null,
+  "ats": null,
+  "slug": null,
+  "confirmed": false,
+  "email": null
+ },
+ {
+  "name": "Gloomywood",
+  "city": "Auvergne-Rhône-Alpes",
+  "country": "FR",
+  "url": null,
+  "ats": null,
+  "slug": null,
+  "confirmed": false,
+  "email": null
+ },
+ {
+  "name": "Rebel Pixel",
+  "city": "Lyon",
+  "country": "FR",
+  "url": null,
+  "ats": null,
+  "slug": null,
+  "confirmed": false,
+  "email": null
+ },
+ {
+  "name": "Sunny Lab",
+  "city": "Paris",
+  "country": "FR",
+  "url": null,
+  "ats": null,
+  "slug": null,
+  "confirmed": false,
+  "email": null
+ },
+ {
+  "name": "Parallel Studio",
+  "city": "Paris",
+  "country": "FR",
+  "url": null,
+  "ats": null,
+  "slug": null,
+  "confirmed": false,
+  "email": null
+ },
+ {
+  "name": "Moon Valley",
+  "city": "Paris",
+  "country": "FR",
+  "url": null,
+  "ats": null,
+  "slug": null,
+  "confirmed": false,
+  "email": null
+ },
+ {
+  "name": "Game Atelier",
+  "city": "Paris",
+  "country": "FR",
+  "url": null,
+  "ats": null,
+  "slug": null,
+  "confirmed": false,
+  "email": null
+ },
+ {
+  "name": "Magic Design Studios",
+  "city": "À confirmer",
+  "country": "FR",
+  "url": null,
+  "ats": null,
+  "slug": null,
+  "confirmed": false,
+  "email": null
+ },
+ {
+  "name": "Ishtar Games",
+  "city": "À confirmer",
+  "country": "FR",
+  "url": null,
+  "ats": null,
+  "slug": null,
+  "confirmed": false,
+  "email": null
+ },
+ {
+  "name": "Eko Software",
+  "city": "À confirmer",
+  "country": "FR",
+  "url": null,
+  "ats": null,
+  "slug": null,
+  "confirmed": false,
+  "email": null
+ },
+ {
+  "name": "Green Panda Games",
+  "city": "À confirmer",
+  "country": "FR",
+  "url": null,
+  "ats": null,
+  "slug": null,
+  "confirmed": false,
+  "email": null
+ },
+ {
+  "name": "Atlantis Studio",
+  "city": "Avignon",
+  "country": "FR",
+  "url": null,
+  "ats": null,
+  "slug": null,
+  "confirmed": false,
+  "email": null
+ },
+ {
+  "name": "Chipo & Juan",
+  "city": "Marseille",
+  "country": "FR",
+  "url": null,
+  "ats": null,
+  "slug": null,
+  "confirmed": false,
+  "email": null
+ },
+ {
+  "name": "Gamearly",
+  "city": "Nice",
+  "country": "FR",
+  "url": null,
+  "ats": null,
+  "slug": null,
+  "confirmed": false,
+  "email": null
+ },
+ {
+  "name": "Dev-Id",
+  "city": "Région Sud",
+  "country": "FR",
+  "url": null,
+  "ats": null,
+  "slug": null,
+  "confirmed": false,
+  "email": null
+ },
+ {
+  "name": "Exkee",
+  "city": "Région Sud",
+  "country": "FR",
+  "url": null,
+  "ats": null,
+  "slug": null,
+  "confirmed": false,
+  "email": null
+ },
+ {
+  "name": "Galéjade Studio",
+  "city": "Région Sud",
+  "country": "FR",
+  "url": null,
+  "ats": null,
+  "slug": null,
+  "confirmed": false,
+  "email": null
+ },
+ {
+  "name": "Iconik",
+  "city": "Région Sud",
+  "country": "FR",
+  "url": null,
+  "ats": null,
+  "slug": null,
+  "confirmed": false,
+  "email": null
+ },
+ {
+  "name": "Nothing2install",
+  "city": "Région Sud",
+  "country": "FR",
+  "url": null,
+  "ats": null,
+  "slug": null,
+  "confirmed": false,
+  "email": null
+ },
+ {
+  "name": "Reydio Games",
+  "city": "Région Sud",
+  "country": "FR",
+  "url": null,
+  "ats": null,
+  "slug": null,
+  "confirmed": false,
+  "email": null
+ },
+ {
+  "name": "Spill Studio",
+  "city": "Région Sud",
+  "country": "FR",
+  "url": null,
+  "ats": null,
+  "slug": null,
+  "confirmed": false,
+  "email": null
+ },
+ {
+  "name": "Behaviour Interactive",
+  "city": "Montréal",
+  "country": "CA",
+  "url": "https://jobs.lever.co/bhvr",
+  "ats": "lever",
+  "slug": "bhvr",
+  "confirmed": true,
+  "email": null
+ }
+]
