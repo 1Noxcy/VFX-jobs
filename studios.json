@@ -545,5 +545,16 @@
   "slug": "bhvr",
   "confirmed": true,
   "email": null
+ },
+ {
+  "name": "AFJV (toutes les offres France)",
+  "city": "France",
+  "country": "FR",
+  "url": "https://emploi.afjv.com/",
+  "ats": "afjv",
+  "slug": null,
+  "confirmed": true,
+  "email": null,
+  "note": "Site de l'Agence française pour le jeu vidéo : les studios y publient eux-mêmes leurs offres. Couvre aussi des studios absents de la liste."
  }
 ]

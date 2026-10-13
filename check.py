@@ -80,10 +80,31 @@ def smartrecruiters(s):
         if off >= d.get("totalFound", 0): break
     return out
 
+def afjv(s):
+    import html as H
+    page = get("https://emploi.afjv.com/").text
+    A = [(m.start(), m.end(), m.group(1), " ".join(H.unescape(re.sub(r"<[^>]+>", " ", m.group(2))).split()))
+         for m in re.finditer(r'<a\s[^>]*href="([^"]+)"[^>]*>(.*?)</a>', page, re.S)]
+    offers = [a for a in A if "/emploi-jeux-video/" in a[2] and a[3]]
+    comps = [a for a in A if "/annonces-societes/" in a[2] and a[3]]
+    def near(o, prev):
+        cs = [c for c in comps if (c[1] <= o[0] if prev else c[0] >= o[1])]
+        if not cs: return 10**9, ""
+        c = cs[-1] if prev else cs[0]
+        return ((o[0] - c[1]) if prev else (c[0] - o[1])), c[3]
+    before = sum(1 if near(o, True)[0] < near(o, False)[0] else -1 for o in offers) > 0
+    out = {}
+    for o in offers:
+        u = o[2] if o[2].startswith("http") else "https://emploi.afjv.com" + o[2]
+        if u not in out:
+            out[u] = {"id": u, "title": o[3], "url": u, "location": "", "company": near(o, before)[1]}
+    return list(out.values())
+
 LOC = re.compile(r"^[\w .'-]+, [A-Z]{2,3}, [\w .'-]+$")
 
 def fetch(s):
     if s["ats"] == "smartrecruiters": return smartrecruiters(s)
+    if s["ats"] == "afjv": return afjv(s)
     a = s["ats"]
     return lever(s, a == "lever_eu") if a in ("lever", "lever_eu") else greenhouse(s) if a == "greenhouse" else page(s)
 
@@ -127,7 +148,7 @@ def main():
                 else:
                     j.update(first_seen=now, last_seen=now, closed_at=None, match=score(j["title"]))
                     e["jobs"][jid] = j
-                    if j["match"] and not first_run and not source_changed: alerts.append(f"🆕 **{s['name']}** ({s['city']}) : {j['title']}\n{j['url']}")
+                    if j["match"] and not first_run and not source_changed: alerts.append(f"🆕 **{j.get('company') or s['name']}** ({'via AFJV' if s['ats']=='afjv' else s['city']}) : {j['title']}\n{j['url']}")
             for jid, j in e["jobs"].items():
                 if jid not in found and not j.get("closed_at"): j["closed_at"] = now
         except Exception as ex:

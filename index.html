@@ -33,11 +33,11 @@ function render(){
   const base=Object.values(D.studios).flatMap(s=>Object.values(s.jobs)).map(j=>j.first_seen).sort()[0];
   for(const[n,s]of Object.entries(D.studios)){if(co&&s.country!==co)continue;
     for(const j of Object.values(s.jobs)){if(j.closed_at||(j.match||0)<pr)continue;
-      if(q&&!(n+" "+j.title+" "+(j.location||"")+" "+s.city).toLowerCase().includes(q))continue;rows.push([n,s,j]);}}
+      if(q&&!(n+" "+(j.company||"")+" "+j.title+" "+(j.location||"")+" "+s.city).toLowerCase().includes(q))continue;rows.push([n,s,j]);}}
   rows.sort((a,b)=>b[2].first_seen.localeCompare(a[2].first_seen));
   $("list").innerHTML=rows.map(([n,s,j])=>{const isNew=j.first_seen>base&&now-new Date(j.first_seen)<48*36e5;
     return `<div class="card"><a href="${j.url}" target="_blank" rel="noopener">${esc(j.title)}</a><br>
-    <span class="mu">${esc(n)} · ${esc(j.location||s.city||"")} · détectée ${fmt(j.first_seen)}${j.published?" · publiée le "+esc(j.published):""}</span><br>
+    <span class="mu">${esc(j.company?j.company+" (via AFJV)":n)} · ${esc(j.location||s.city||"")} · détectée ${fmt(j.first_seen)}${j.published?" · publiée le "+esc(j.published):""}</span><br>
     ${isNew?'<span class="tag new">nouvelle</span>':""}${j.match==2?'<span class="tag p2">VFX / Unreal</span>':""}</div>`}).join("")
     ||'<div class="card mu">Aucune offre pour ces filtres. Vérifie la liste des studios ci-dessous.</div>';
 }
