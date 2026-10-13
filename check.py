@@ -16,6 +16,8 @@ JOBWORDS = PRIO + SEC + ["artist", "artiste", "designer", "3d"]
 def score(t):
     t = t.lower()
     if re.search(NEG, t): return 0
+    if re.search(r"program|d\u00e9velopp|developer|\bdev\b|engineer|ing\u00e9nieur", t) and not re.search(r"\bqa\b|test|artist|animat", t):
+        return 0
     if any(k in t for k in PRIO): return 2
     if any(re.search(k, t) for k in SEC): return 1
     return 0
