@@ -1,1 +1,1191 @@
-{"updated":null,"studios":{}}
+{
+ "updated": "2026-10-13T12:28Z",
+ "studios": {
+  "Ubisoft Paris": {
+   "city": "Paris",
+   "country": "FR",
+   "url": "https://www.ubisoft.com/fr-fr/company/careers/search",
+   "email": null,
+   "confirmed": true,
+   "ats": "page",
+   "jobs": {
+    "https://www.ubisoft.com/fr-fr/company/careers/interns-graduates": {
+     "id": "https://www.ubisoft.com/fr-fr/company/careers/interns-graduates",
+     "title": "Étudiants et Jeunes Diplômés",
+     "url": "https://www.ubisoft.com/fr-fr/company/careers/interns-graduates",
+     "location": "",
+     "first_seen": "2026-10-13T12:28Z",
+     "last_seen": "2026-10-13T12:28Z",
+     "closed_at": null,
+     "match": 0
+    }
+   },
+   "last_checked": "2026-10-13T12:28Z",
+   "error": null
+  },
+  "Ubisoft Montreuil": {
+   "city": "Montreuil",
+   "country": "FR",
+   "url": "https://www.ubisoft.com/fr-fr/company/careers/search",
+   "email": null,
+   "confirmed": true,
+   "ats": "page",
+   "jobs": {
+    "https://www.ubisoft.com/fr-fr/company/careers/interns-graduates": {
+     "id": "https://www.ubisoft.com/fr-fr/company/careers/interns-graduates",
+     "title": "Étudiants et Jeunes Diplômés",
+     "url": "https://www.ubisoft.com/fr-fr/company/careers/interns-graduates",
+     "location": "",
+     "first_seen": "2026-10-13T12:28Z",
+     "last_seen": "2026-10-13T12:28Z",
+     "closed_at": null,
+     "match": 0
+    }
+   },
+   "last_checked": "2026-10-13T12:28Z",
+   "error": null
+  },
+  "Ubisoft Annecy": {
+   "city": "Annecy",
+   "country": "FR",
+   "url": "https://www.ubisoft.com/fr-fr/company/careers/search",
+   "email": null,
+   "confirmed": true,
+   "ats": "page",
+   "jobs": {
+    "https://www.ubisoft.com/fr-fr/company/careers/interns-graduates": {
+     "id": "https://www.ubisoft.com/fr-fr/company/careers/interns-graduates",
+     "title": "Étudiants et Jeunes Diplômés",
+     "url": "https://www.ubisoft.com/fr-fr/company/careers/interns-graduates",
+     "location": "",
+     "first_seen": "2026-10-13T12:28Z",
+     "last_seen": "2026-10-13T12:28Z",
+     "closed_at": null,
+     "match": 0
+    }
+   },
+   "last_checked": "2026-10-13T12:28Z",
+   "error": null
+  },
+  "Ubisoft Bordeaux": {
+   "city": "Bordeaux",
+   "country": "FR",
+   "url": "https://www.ubisoft.com/fr-fr/company/careers/search",
+   "email": null,
+   "confirmed": true,
+   "ats": "page",
+   "jobs": {
+    "https://www.ubisoft.com/fr-fr/company/careers/interns-graduates": {
+     "id": "https://www.ubisoft.com/fr-fr/company/careers/interns-graduates",
+     "title": "Étudiants et Jeunes Diplômés",
+     "url": "https://www.ubisoft.com/fr-fr/company/careers/interns-graduates",
+     "location": "",
+     "first_seen": "2026-10-13T12:28Z",
+     "last_seen": "2026-10-13T12:28Z",
+     "closed_at": null,
+     "match": 0
+    }
+   },
+   "last_checked": "2026-10-13T12:28Z",
+   "error": null
+  },
+  "Ubisoft Montpellier": {
+   "city": "Montpellier",
+   "country": "FR",
+   "url": "https://www.ubisoft.com/fr-fr/company/careers/search",
+   "email": null,
+   "confirmed": true,
+   "ats": "page",
+   "jobs": {
+    "https://www.ubisoft.com/fr-fr/company/careers/interns-graduates": {
+     "id": "https://www.ubisoft.com/fr-fr/company/careers/interns-graduates",
+     "title": "Étudiants et Jeunes Diplômés",
+     "url": "https://www.ubisoft.com/fr-fr/company/careers/interns-graduates",
+     "location": "",
+     "first_seen": "2026-10-13T12:28Z",
+     "last_seen": "2026-10-13T12:28Z",
+     "closed_at": null,
+     "match": 0
+    }
+   },
+   "last_checked": "2026-10-13T12:28Z",
+   "error": null
+  },
+  "Gameloft Paris": {
+   "city": "Paris",
+   "country": "FR",
+   "url": "https://www.fr.gameloft.com/jobs",
+   "email": null,
+   "confirmed": false,
+   "ats": "page",
+   "jobs": {
+    "https://www.fr.gameloft.com/jobs/IT%20Helpdesk%20Intern-744000154931669": {
+     "id": "https://www.fr.gameloft.com/jobs/IT%20Helpdesk%20Intern-744000154931669",
+     "title": "PROGRAMMING & TECHNOLOGY",
+     "url": "https://www.fr.gameloft.com/jobs/IT%20Helpdesk%20Intern-744000154931669",
+     "location": "",
+     "first_seen": "2026-10-13T12:28Z",
+     "last_seen": "2026-10-13T12:28Z",
+     "closed_at": null,
+     "match": 0
+    },
+    "https://www.fr.gameloft.com/jobs/IT%20Intern%20(6%20months)-744000154931499": {
+     "id": "https://www.fr.gameloft.com/jobs/IT%20Intern%20(6%20months)-744000154931499",
+     "title": "PROGRAMMING & TECHNOLOGY",
+     "url": "https://www.fr.gameloft.com/jobs/IT%20Intern%20(6%20months)-744000154931499",
+     "location": "",
+     "first_seen": "2026-10-13T12:28Z",
+     "last_seen": "2026-10-13T12:28Z",
+     "closed_at": null,
+     "match": 0
+    },
+    "https://www.fr.gameloft.com/jobs/Senior%20UI%20Artist%20(3%2B%20Years%20Gaming%20Exp.)-744000154610140": {
+     "id": "https://www.fr.gameloft.com/jobs/Senior%20UI%20Artist%20(3%2B%20Years%20Gaming%20Exp.)-744000154610140",
+     "title": "CREATIVE & DESIGN",
+     "url": "https://www.fr.gameloft.com/jobs/Senior%20UI%20Artist%20(3%2B%20Years%20Gaming%20Exp.)-744000154610140",
+     "location": "",
+     "first_seen": "2026-10-13T12:28Z",
+     "last_seen": "2026-10-13T12:28Z",
+     "closed_at": null,
+     "match": 0
+    },
+    "https://www.fr.gameloft.com/jobs/Business%20Intelligence%20Engineer%20(Junior)-744000154412309": {
+     "id": "https://www.fr.gameloft.com/jobs/Business%20Intelligence%20Engineer%20(Junior)-744000154412309",
+     "title": "DATA & ANALYTICS",
+     "url": "https://www.fr.gameloft.com/jobs/Business%20Intelligence%20Engineer%20(Junior)-744000154412309",
+     "location": "",
+     "first_seen": "2026-10-13T12:28Z",
+     "last_seen": "2026-10-13T12:28Z",
+     "closed_at": null,
+     "match": 0
+    },
+    "https://www.fr.gameloft.com/jobs/IT%20-%20Hardware%20Intern%20(6%20months)-744000154397659": {
+     "id": "https://www.fr.gameloft.com/jobs/IT%20-%20Hardware%20Intern%20(6%20months)-744000154397659",
+     "title": "PROGRAMMING & TECHNOLOGY",
+     "url": "https://www.fr.gameloft.com/jobs/IT%20-%20Hardware%20Intern%20(6%20months)-744000154397659",
+     "location": "",
+     "first_seen": "2026-10-13T12:28Z",
+     "last_seen": "2026-10-13T12:28Z",
+     "closed_at": null,
+     "match": 0
+    }
+   },
+   "last_checked": "2026-10-13T12:28Z",
+   "error": null
+  },
+  "Quantic Dream": {
+   "city": "Paris",
+   "country": "FR",
+   "url": "https://jobs.eu.lever.co/quanticdream",
+   "email": null,
+   "confirmed": true,
+   "ats": "lever_eu",
+   "jobs": {
+    "cc1dacb2-01b7-47c0-b827-9b9b786d1dd7": {
+     "id": "cc1dacb2-01b7-47c0-b827-9b9b786d1dd7",
+     "title": "Candidature Spontanée",
+     "url": "https://jobs.eu.lever.co/quanticdream/cc1dacb2-01b7-47c0-b827-9b9b786d1dd7",
+     "location": "Paris, Ile de France",
+     "first_seen": "2026-10-13T12:28Z",
+     "last_seen": "2026-10-13T12:28Z",
+     "closed_at": null,
+     "match": 0
+    }
+   },
+   "last_checked": "2026-10-13T12:28Z",
+   "error": null
+  },
+  "Arkane Studios Lyon": {
+   "city": "Lyon",
+   "country": "FR",
+   "url": "https://jobs.zenimax.com/",
+   "email": null,
+   "confirmed": false,
+   "ats": "page",
+   "jobs": {},
+   "last_checked": "2026-10-13T12:28Z",
+   "error": null
+  },
+  "Asobo Studio": {
+   "city": "Bordeaux",
+   "country": "FR",
+   "url": "https://www.asobostudio.com/fr/carriere",
+   "email": null,
+   "confirmed": false,
+   "ats": "page",
+   "jobs": {
+    "https://jobs.eu.lever.co/asobostudio/6eeb3856-e475-45af-964b-ff89a0c9f6d2": {
+     "id": "https://jobs.eu.lever.co/asobostudio/6eeb3856-e475-45af-964b-ff89a0c9f6d2",
+     "title": "Character Artist H/F (Projet narratif non annoncé)02/10/2026",
+     "url": "https://jobs.eu.lever.co/asobostudio/6eeb3856-e475-45af-964b-ff89a0c9f6d2",
+     "location": "",
+     "first_seen": "2026-10-13T12:28Z",
+     "last_seen": "2026-10-13T12:28Z",
+     "closed_at": null,
+     "match": 0
+    },
+    "https://jobs.eu.lever.co/asobostudio/85f03aed-6db3-4a4d-93f2-33996ef912c6": {
+     "id": "https://jobs.eu.lever.co/asobostudio/85f03aed-6db3-4a4d-93f2-33996ef912c6",
+     "title": "Game Designer H/F (Projet narratif non annoncé)04/09/2026",
+     "url": "https://jobs.eu.lever.co/asobostudio/85f03aed-6db3-4a4d-93f2-33996ef912c6",
+     "location": "",
+     "first_seen": "2026-10-13T12:28Z",
+     "last_seen": "2026-10-13T12:28Z",
+     "closed_at": null,
+     "match": 0
+    },
+    "https://jobs.eu.lever.co/asobostudio/09f1850d-6eaf-4736-bac7-fd81a0f33636": {
+     "id": "https://jobs.eu.lever.co/asobostudio/09f1850d-6eaf-4736-bac7-fd81a0f33636",
+     "title": "Narrative Designer H/F (Projet narratif non annoncé)04/09/2026",
+     "url": "https://jobs.eu.lever.co/asobostudio/09f1850d-6eaf-4736-bac7-fd81a0f33636",
+     "location": "",
+     "first_seen": "2026-10-13T12:28Z",
+     "last_seen": "2026-10-13T12:28Z",
+     "closed_at": null,
+     "match": 0
+    },
+    "https://jobs.eu.lever.co/asobostudio/33195c86-ad8d-4506-b29f-1bf9d1eaa5ce": {
+     "id": "https://jobs.eu.lever.co/asobostudio/33195c86-ad8d-4506-b29f-1bf9d1eaa5ce",
+     "title": "Stage Level Designer H/F (Projet narratif non annoncé)27/08/2026",
+     "url": "https://jobs.eu.lever.co/asobostudio/33195c86-ad8d-4506-b29f-1bf9d1eaa5ce",
+     "location": "",
+     "first_seen": "2026-10-13T12:28Z",
+     "last_seen": "2026-10-13T12:28Z",
+     "closed_at": null,
+     "match": 1
+    },
+    "https://jobs.eu.lever.co/asobostudio/9bae1aa8-ae41-4ab1-920a-6e8e8b5472d4": {
+     "id": "https://jobs.eu.lever.co/asobostudio/9bae1aa8-ae41-4ab1-920a-6e8e8b5472d4",
+     "title": "Senior VFX Artist H/F (Projet narratif non annoncé)20/07/2026",
+     "url": "https://jobs.eu.lever.co/asobostudio/9bae1aa8-ae41-4ab1-920a-6e8e8b5472d4",
+     "location": "",
+     "first_seen": "2026-10-13T12:28Z",
+     "last_seen": "2026-10-13T12:28Z",
+     "closed_at": null,
+     "match": 2
+    }
+   },
+   "last_checked": "2026-10-13T12:28Z",
+   "error": null
+  },
+  "Don't Nod": {
+   "city": "Paris",
+   "country": "FR",
+   "url": "https://dont-nod.com/fr/offres-emploi/",
+   "email": null,
+   "confirmed": false,
+   "ats": "page",
+   "jobs": {},
+   "last_checked": "2026-10-13T12:28Z",
+   "error": null
+  },
+  "Focus Entertainment / Pullup": {
+   "city": "Paris",
+   "country": "FR",
+   "url": "https://www.pullupentertainment.com/careers/",
+   "email": null,
+   "confirmed": false,
+   "ats": "page",
+   "jobs": {},
+   "last_checked": null,
+   "error": "ConnectionError: HTTPSConnectionPool(host='www.pullupentertainment.com', port=443): Max retries exceeded with url: /careers/ (Caused by N"
+  },
+  "Nacon": {
+   "city": "Lesquin",
+   "country": "FR",
+   "url": "https://corporate.nacongaming.com/career/",
+   "email": null,
+   "confirmed": false,
+   "ats": "page",
+   "jobs": {
+    "https://corporate.nacongaming.com/wp-content/uploads/2024/06/NACON-Stage-Motion-Capture.pdf": {
+     "id": "https://corporate.nacongaming.com/wp-content/uploads/2024/06/NACON-Stage-Motion-Capture.pdf",
+     "title": "Lire la suite",
+     "url": "https://corporate.nacongaming.com/wp-content/uploads/2024/06/NACON-Stage-Motion-Capture.pdf",
+     "location": "",
+     "first_seen": "2026-10-13T12:28Z",
+     "last_seen": "2026-10-13T12:28Z",
+     "closed_at": null,
+     "match": 0
+    }
+   },
+   "last_checked": "2026-10-13T12:28Z",
+   "error": null
+  },
+  "Cyanide": {
+   "city": "Nanterre",
+   "country": "FR",
+   "url": "https://cyanide-studio.com/fr/nous-rejoindre/",
+   "email": null,
+   "confirmed": false,
+   "ats": "page",
+   "jobs": {
+    "https://cyanide-studio.com/fr/nous-rejoindre/#elementor-action%3Aaction%3Dpopup%3Aclose%26settings%3DeyJkb19ub3Rfc2hvd19hZ2FpbiI6IiJ9": {
+     "id": "https://cyanide-studio.com/fr/nous-rejoindre/#elementor-action%3Aaction%3Dpopup%3Aclose%26settings%3DeyJkb19ub3Rfc2hvd19hZ2FpbiI6IiJ9",
+     "title": ".cls-1 { fill: #fff; }",
+     "url": "https://cyanide-studio.com/fr/nous-rejoindre/#elementor-action%3Aaction%3Dpopup%3Aclose%26settings%3DeyJkb19ub3Rfc2hvd19hZ2FpbiI6IiJ9",
+     "location": "",
+     "first_seen": "2026-10-13T12:28Z",
+     "last_seen": "2026-10-13T12:28Z",
+     "closed_at": null,
+     "match": 0
+    }
+   },
+   "last_checked": "2026-10-13T12:28Z",
+   "error": null
+  },
+  "Kylotonn (KT Racing)": {
+   "city": "Paris",
+   "country": "FR",
+   "url": "https://kylotonn.com/en/careers/",
+   "email": null,
+   "confirmed": false,
+   "ats": "page",
+   "jobs": {
+    "https://kylotonn.com/en/careers/": {
+     "id": "https://kylotonn.com/en/careers/",
+     "title": "Vehicle Artist",
+     "url": "https://kylotonn.com/en/careers/",
+     "location": "",
+     "first_seen": "2026-10-13T12:28Z",
+     "last_seen": "2026-10-13T12:28Z",
+     "closed_at": null,
+     "match": 0
+    }
+   },
+   "last_checked": "2026-10-13T12:28Z",
+   "error": null
+  },
+  "Amplitude Studios": {
+   "city": "Paris",
+   "country": "FR",
+   "url": "https://www.amplitude-studios.com/#Careers",
+   "email": null,
+   "confirmed": false,
+   "ats": "page",
+   "jobs": {},
+   "last_checked": "2026-10-13T12:28Z",
+   "error": null
+  },
+  "Ankama": {
+   "city": "Roubaix",
+   "country": "FR",
+   "url": "https://recrutement.ankama.com/jobs",
+   "email": "jobs@ankama.com",
+   "confirmed": false,
+   "ats": "page",
+   "jobs": {
+    "https://recrutement.ankama.com/jobs/8131050-artiste-3d-f-h": {
+     "id": "https://recrutement.ankama.com/jobs/8131050-artiste-3d-f-h",
+     "title": "Artiste 3D (F/H) Production Jeux Vidéo · Ankama Roubaix, Paris",
+     "url": "https://recrutement.ankama.com/jobs/8131050-artiste-3d-f-h",
+     "location": "",
+     "first_seen": "2026-10-13T12:28Z",
+     "last_seen": "2026-10-13T12:28Z",
+     "closed_at": null,
+     "match": 0
+    },
+    "https://recrutement.ankama.com/jobs/8130323-directeur-artistique-f-h": {
+     "id": "https://recrutement.ankama.com/jobs/8130323-directeur-artistique-f-h",
+     "title": "Directeur Artistique (F/H) Production Jeux Vidéo · Ankama Roubaix, Paris",
+     "url": "https://recrutement.ankama.com/jobs/8130323-directeur-artistique-f-h",
+     "location": "",
+     "first_seen": "2026-10-13T12:28Z",
+     "last_seen": "2026-10-13T12:28Z",
+     "closed_at": null,
+     "match": 0
+    }
+   },
+   "last_checked": "2026-10-13T12:28Z",
+   "error": null
+  },
+  "Shiro Games": {
+   "city": "Bordeaux",
+   "country": "FR",
+   "url": "https://jobs.shirogames.com/",
+   "email": "jobs@shirogames.com",
+   "confirmed": true,
+   "ats": "page",
+   "jobs": {
+    "https://jobs.shirogames.com/jobs/3d-environment-artist-h-f/": {
+     "id": "https://jobs.shirogames.com/jobs/3d-environment-artist-h-f/",
+     "title": "Consult",
+     "url": "https://jobs.shirogames.com/jobs/3d-environment-artist-h-f/",
+     "location": "",
+     "first_seen": "2026-10-13T12:28Z",
+     "last_seen": "2026-10-13T12:28Z",
+     "closed_at": null,
+     "match": 0
+    },
+    "https://jobs.shirogames.com/jobs/game-designer-2/": {
+     "id": "https://jobs.shirogames.com/jobs/game-designer-2/",
+     "title": "Consult",
+     "url": "https://jobs.shirogames.com/jobs/game-designer-2/",
+     "location": "",
+     "first_seen": "2026-10-13T12:28Z",
+     "last_seen": "2026-10-13T12:28Z",
+     "closed_at": null,
+     "match": 0
+    }
+   },
+   "last_checked": "2026-10-13T12:28Z",
+   "error": null
+  },
+  "Evil Empire": {
+   "city": "Paris",
+   "country": "FR",
+   "url": "https://evilempire.co.uk/team/careers/",
+   "email": null,
+   "confirmed": false,
+   "ats": "page",
+   "jobs": {},
+   "last_checked": "2026-10-13T12:28Z",
+   "error": null
+  },
+  "Sloclap": {
+   "city": "Paris",
+   "country": "FR",
+   "url": "https://careers.sloclap.com/jobs",
+   "email": null,
+   "confirmed": true,
+   "ats": "page",
+   "jobs": {},
+   "last_checked": "2026-10-13T12:28Z",
+   "error": null
+  },
+  "Dotemu": {
+   "city": "Paris",
+   "country": "FR",
+   "url": "https://www.dotemu.com/jobs/",
+   "email": null,
+   "confirmed": false,
+   "ats": "page",
+   "jobs": {},
+   "last_checked": "2026-10-13T12:28Z",
+   "error": null
+  },
+  "Sandfall Interactive": {
+   "city": "Occitanie (Montpellier)",
+   "country": "FR",
+   "url": "https://www.sandfall.co/",
+   "email": null,
+   "confirmed": false,
+   "ats": "page",
+   "jobs": {},
+   "last_checked": "2026-10-13T12:28Z",
+   "error": null
+  },
+  "Voodoo": {
+   "city": "Paris",
+   "country": "FR",
+   "url": "https://voodoo.io/careers#jobs",
+   "email": null,
+   "confirmed": false,
+   "ats": "page",
+   "jobs": {},
+   "last_checked": "2026-10-13T12:28Z",
+   "error": null
+  },
+  "Microids": {
+   "city": "Paris",
+   "country": "FR",
+   "url": "https://voodoo.io/careers#jobs",
+   "email": null,
+   "confirmed": false,
+   "ats": "page",
+   "jobs": {},
+   "last_checked": "2026-10-13T12:28Z",
+   "error": null
+  },
+  "Drakhar Studio": {
+   "city": "Lyon",
+   "country": "FR",
+   "url": null,
+   "email": null,
+   "confirmed": false,
+   "ats": null,
+   "jobs": {},
+   "last_checked": null,
+   "error": "pas de lien (à compléter)"
+  },
+  "Passtech Games": {
+   "city": "Lyon",
+   "country": "FR",
+   "url": "https://www.microids.com/jobs/",
+   "email": null,
+   "confirmed": false,
+   "ats": "page",
+   "jobs": {
+    "https://www.microids.com/backstage/": {
+     "id": "https://www.microids.com/backstage/",
+     "title": "Backstage",
+     "url": "https://www.microids.com/backstage/",
+     "location": "",
+     "first_seen": "2026-10-13T12:28Z",
+     "last_seen": "2026-10-13T12:28Z",
+     "closed_at": null,
+     "match": 0
+    }
+   },
+   "last_checked": "2026-10-13T12:28Z",
+   "error": null
+  },
+  "Old Skull Games": {
+   "city": "Lyon",
+   "country": "FR",
+   "url": null,
+   "email": null,
+   "confirmed": false,
+   "ats": null,
+   "jobs": {},
+   "last_checked": null,
+   "error": "pas de lien (à compléter)"
+  },
+  "Artefacts Studio": {
+   "city": "Lyon",
+   "country": "FR",
+   "url": "https://www.passtechgames.com/careers/",
+   "email": null,
+   "confirmed": false,
+   "ats": "page",
+   "jobs": {},
+   "last_checked": "2026-10-13T12:28Z",
+   "error": null
+  },
+  "Kiupe": {
+   "city": "Auvergne-Rhône-Alpes",
+   "country": "FR",
+   "url": null,
+   "email": null,
+   "confirmed": false,
+   "ats": null,
+   "jobs": {},
+   "last_checked": null,
+   "error": "pas de lien (à compléter)"
+  },
+  "Kiniro": {
+   "city": "Auvergne-Rhône-Alpes",
+   "country": "FR",
+   "url": null,
+   "email": null,
+   "confirmed": false,
+   "ats": null,
+   "jobs": {},
+   "last_checked": null,
+   "error": "pas de lien (à compléter)"
+  },
+  "Upper Byte": {
+   "city": "Auvergne-Rhône-Alpes",
+   "country": "FR",
+   "url": null,
+   "email": null,
+   "confirmed": false,
+   "ats": null,
+   "jobs": {},
+   "last_checked": null,
+   "error": "pas de lien (à compléter)"
+  },
+  "Agharta Studio": {
+   "city": "Auvergne-Rhône-Alpes",
+   "country": "FR",
+   "url": null,
+   "email": null,
+   "confirmed": false,
+   "ats": null,
+   "jobs": {},
+   "last_checked": null,
+   "error": "pas de lien (à compléter)"
+  },
+  "Little Worlds Studio": {
+   "city": "Auvergne-Rhône-Alpes",
+   "country": "FR",
+   "url": null,
+   "email": null,
+   "confirmed": false,
+   "ats": null,
+   "jobs": {},
+   "last_checked": null,
+   "error": "pas de lien (à compléter)"
+  },
+  "Mi-Clos Studio": {
+   "city": "Auvergne-Rhône-Alpes",
+   "country": "FR",
+   "url": null,
+   "email": null,
+   "confirmed": false,
+   "ats": null,
+   "jobs": {},
+   "last_checked": null,
+   "error": "pas de lien (à compléter)"
+  },
+  "Black Muffin": {
+   "city": "Auvergne-Rhône-Alpes",
+   "country": "FR",
+   "url": null,
+   "email": null,
+   "confirmed": false,
+   "ats": null,
+   "jobs": {},
+   "last_checked": null,
+   "error": "pas de lien (à compléter)"
+  },
+  "OSome Studio": {
+   "city": "Auvergne-Rhône-Alpes",
+   "country": "FR",
+   "url": null,
+   "email": null,
+   "confirmed": false,
+   "ats": null,
+   "jobs": {},
+   "last_checked": null,
+   "error": "pas de lien (à compléter)"
+  },
+  "Studio Chahut": {
+   "city": "Auvergne-Rhône-Alpes",
+   "country": "FR",
+   "url": null,
+   "email": null,
+   "confirmed": false,
+   "ats": null,
+   "jobs": {},
+   "last_checked": null,
+   "error": "pas de lien (à compléter)"
+  },
+  "Lugludum": {
+   "city": "Auvergne-Rhône-Alpes",
+   "country": "FR",
+   "url": null,
+   "email": null,
+   "confirmed": false,
+   "ats": null,
+   "jobs": {},
+   "last_checked": null,
+   "error": "pas de lien (à compléter)"
+  },
+  "Tabemasu Games": {
+   "city": "Auvergne-Rhône-Alpes",
+   "country": "FR",
+   "url": null,
+   "email": null,
+   "confirmed": false,
+   "ats": null,
+   "jobs": {},
+   "last_checked": null,
+   "error": "pas de lien (à compléter)"
+  },
+  "Pango Studio": {
+   "city": "Auvergne-Rhône-Alpes",
+   "country": "FR",
+   "url": null,
+   "email": null,
+   "confirmed": false,
+   "ats": null,
+   "jobs": {},
+   "last_checked": null,
+   "error": "pas de lien (à compléter)"
+  },
+  "Magiko Gaming": {
+   "city": "Auvergne-Rhône-Alpes",
+   "country": "FR",
+   "url": null,
+   "email": null,
+   "confirmed": false,
+   "ats": null,
+   "jobs": {},
+   "last_checked": null,
+   "error": "pas de lien (à compléter)"
+  },
+  "Gloomywood": {
+   "city": "Auvergne-Rhône-Alpes",
+   "country": "FR",
+   "url": null,
+   "email": null,
+   "confirmed": false,
+   "ats": null,
+   "jobs": {},
+   "last_checked": null,
+   "error": "pas de lien (à compléter)"
+  },
+  "Rebel Pixel": {
+   "city": "Lyon",
+   "country": "FR",
+   "url": null,
+   "email": null,
+   "confirmed": false,
+   "ats": null,
+   "jobs": {},
+   "last_checked": null,
+   "error": "pas de lien (à compléter)"
+  },
+  "Sunny Lab": {
+   "city": "Paris",
+   "country": "FR",
+   "url": null,
+   "email": null,
+   "confirmed": false,
+   "ats": null,
+   "jobs": {},
+   "last_checked": null,
+   "error": "pas de lien (à compléter)"
+  },
+  "Parallel Studio": {
+   "city": "Paris",
+   "country": "FR",
+   "url": null,
+   "email": null,
+   "confirmed": false,
+   "ats": null,
+   "jobs": {},
+   "last_checked": null,
+   "error": "pas de lien (à compléter)"
+  },
+  "Moon Valley": {
+   "city": "Paris",
+   "country": "FR",
+   "url": null,
+   "email": null,
+   "confirmed": false,
+   "ats": null,
+   "jobs": {},
+   "last_checked": null,
+   "error": "pas de lien (à compléter)"
+  },
+  "Game Atelier": {
+   "city": "Paris",
+   "country": "FR",
+   "url": null,
+   "email": null,
+   "confirmed": false,
+   "ats": null,
+   "jobs": {},
+   "last_checked": null,
+   "error": "pas de lien (à compléter)"
+  },
+  "Magic Design Studios": {
+   "city": "À confirmer",
+   "country": "FR",
+   "url": null,
+   "email": null,
+   "confirmed": false,
+   "ats": null,
+   "jobs": {},
+   "last_checked": null,
+   "error": "pas de lien (à compléter)"
+  },
+  "Ishtar Games": {
+   "city": "À confirmer",
+   "country": "FR",
+   "url": null,
+   "email": null,
+   "confirmed": false,
+   "ats": null,
+   "jobs": {},
+   "last_checked": null,
+   "error": "pas de lien (à compléter)"
+  },
+  "Eko Software": {
+   "city": "À confirmer",
+   "country": "FR",
+   "url": null,
+   "email": null,
+   "confirmed": false,
+   "ats": null,
+   "jobs": {},
+   "last_checked": null,
+   "error": "pas de lien (à compléter)"
+  },
+  "Green Panda Games": {
+   "city": "À confirmer",
+   "country": "FR",
+   "url": null,
+   "email": null,
+   "confirmed": false,
+   "ats": null,
+   "jobs": {},
+   "last_checked": null,
+   "error": "pas de lien (à compléter)"
+  },
+  "Atlantis Studio": {
+   "city": "Avignon",
+   "country": "FR",
+   "url": null,
+   "email": null,
+   "confirmed": false,
+   "ats": null,
+   "jobs": {},
+   "last_checked": null,
+   "error": "pas de lien (à compléter)"
+  },
+  "Chipo & Juan": {
+   "city": "Marseille",
+   "country": "FR",
+   "url": null,
+   "email": null,
+   "confirmed": false,
+   "ats": null,
+   "jobs": {},
+   "last_checked": null,
+   "error": "pas de lien (à compléter)"
+  },
+  "Gamearly": {
+   "city": "Nice",
+   "country": "FR",
+   "url": null,
+   "email": null,
+   "confirmed": false,
+   "ats": null,
+   "jobs": {},
+   "last_checked": null,
+   "error": "pas de lien (à compléter)"
+  },
+  "Dev-Id": {
+   "city": "Région Sud",
+   "country": "FR",
+   "url": null,
+   "email": null,
+   "confirmed": false,
+   "ats": null,
+   "jobs": {},
+   "last_checked": null,
+   "error": "pas de lien (à compléter)"
+  },
+  "Exkee": {
+   "city": "Région Sud",
+   "country": "FR",
+   "url": null,
+   "email": null,
+   "confirmed": false,
+   "ats": null,
+   "jobs": {},
+   "last_checked": null,
+   "error": "pas de lien (à compléter)"
+  },
+  "Galéjade Studio": {
+   "city": "Région Sud",
+   "country": "FR",
+   "url": null,
+   "email": null,
+   "confirmed": false,
+   "ats": null,
+   "jobs": {},
+   "last_checked": null,
+   "error": "pas de lien (à compléter)"
+  },
+  "Iconik": {
+   "city": "Région Sud",
+   "country": "FR",
+   "url": null,
+   "email": null,
+   "confirmed": false,
+   "ats": null,
+   "jobs": {},
+   "last_checked": null,
+   "error": "pas de lien (à compléter)"
+  },
+  "Nothing2install": {
+   "city": "Région Sud",
+   "country": "FR",
+   "url": null,
+   "email": null,
+   "confirmed": false,
+   "ats": null,
+   "jobs": {},
+   "last_checked": null,
+   "error": "pas de lien (à compléter)"
+  },
+  "Reydio Games": {
+   "city": "Région Sud",
+   "country": "FR",
+   "url": null,
+   "email": null,
+   "confirmed": false,
+   "ats": null,
+   "jobs": {},
+   "last_checked": null,
+   "error": "pas de lien (à compléter)"
+  },
+  "Spill Studio": {
+   "city": "Région Sud",
+   "country": "FR",
+   "url": null,
+   "email": null,
+   "confirmed": false,
+   "ats": null,
+   "jobs": {},
+   "last_checked": null,
+   "error": "pas de lien (à compléter)"
+  },
+  "Behaviour Interactive": {
+   "city": "Montréal",
+   "country": "CA",
+   "url": "https://jobs.lever.co/bhvr",
+   "email": null,
+   "confirmed": true,
+   "ats": "lever",
+   "jobs": {
+    "51e1953d-96d6-4d81-bbda-302bc31ddedb": {
+     "id": "51e1953d-96d6-4d81-bbda-302bc31ddedb",
+     "title": "Brand Director – 7 Days To Die | Directeur·trice de marque – 7 Days To Die",
+     "url": "https://jobs.lever.co/bhvr/51e1953d-96d6-4d81-bbda-302bc31ddedb",
+     "location": "Montreal, QC",
+     "first_seen": "2026-10-13T12:28Z",
+     "last_seen": "2026-10-13T12:28Z",
+     "closed_at": null,
+     "match": 0
+    },
+    "d7d317a5-970e-47e3-b20e-184e1e586f53": {
+     "id": "d7d317a5-970e-47e3-b20e-184e1e586f53",
+     "title": "Design Director - 7 Days to Die  | Directeur·trice Design - 7 Days to Die",
+     "url": "https://jobs.lever.co/bhvr/d7d317a5-970e-47e3-b20e-184e1e586f53",
+     "location": "Montreal, QC",
+     "first_seen": "2026-10-13T12:28Z",
+     "last_seen": "2026-10-13T12:28Z",
+     "closed_at": null,
+     "match": 0
+    },
+    "b6940b52-ca9a-48c6-b2f0-e61847c3f4a7": {
+     "id": "b6940b52-ca9a-48c6-b2f0-e61847c3f4a7",
+     "title": "DevOps Programmer - Core Technologies  | Programmeur·euse DevOps - Technologies centrales",
+     "url": "https://jobs.lever.co/bhvr/b6940b52-ca9a-48c6-b2f0-e61847c3f4a7",
+     "location": "Montreal, QC",
+     "first_seen": "2026-10-13T12:28Z",
+     "last_seen": "2026-10-13T12:28Z",
+     "closed_at": null,
+     "match": 0
+    },
+    "e136a5b7-c54f-488b-ab9f-16e622c082b6": {
+     "id": "e136a5b7-c54f-488b-ab9f-16e622c082b6",
+     "title": "Financial Analyst & Planification | Analyste financier·ère et planification",
+     "url": "https://jobs.lever.co/bhvr/e136a5b7-c54f-488b-ab9f-16e622c082b6",
+     "location": "Montreal, QC",
+     "first_seen": "2026-10-13T12:28Z",
+     "last_seen": "2026-10-13T12:28Z",
+     "closed_at": null,
+     "match": 0
+    },
+    "81394fe9-fa4b-42c2-9332-5365817a308e": {
+     "id": "81394fe9-fa4b-42c2-9332-5365817a308e",
+     "title": "Merchandising Operations Manager | Gestionnaire des opérations de marchandises",
+     "url": "https://jobs.lever.co/bhvr/81394fe9-fa4b-42c2-9332-5365817a308e",
+     "location": "Montreal, QC",
+     "first_seen": "2026-10-13T12:28Z",
+     "last_seen": "2026-10-13T12:28Z",
+     "closed_at": null,
+     "match": 0
+    },
+    "ad5bf5c9-5aa8-4356-939c-af00cbc61f82": {
+     "id": "ad5bf5c9-5aa8-4356-939c-af00cbc61f82",
+     "title": "Player Lifecycle Director | Directeur·trice du cycle de vie des joueurs",
+     "url": "https://jobs.lever.co/bhvr/ad5bf5c9-5aa8-4356-939c-af00cbc61f82",
+     "location": "Montreal, QC",
+     "first_seen": "2026-10-13T12:28Z",
+     "last_seen": "2026-10-13T12:28Z",
+     "closed_at": null,
+     "match": 0
+    },
+    "e030f605-81c1-43ed-932a-ae03eeb512fa": {
+     "id": "e030f605-81c1-43ed-932a-ae03eeb512fa",
+     "title": "Player Support Knowledge Manager | Gestionnaire des connaissances - Soutien aux joueurs·euses",
+     "url": "https://jobs.lever.co/bhvr/e030f605-81c1-43ed-932a-ae03eeb512fa",
+     "location": "Montreal, QC",
+     "first_seen": "2026-10-13T12:28Z",
+     "last_seen": "2026-10-13T12:28Z",
+     "closed_at": null,
+     "match": 0
+    },
+    "72b9b933-356b-4f25-8484-6fc221ea8c31": {
+     "id": "72b9b933-356b-4f25-8484-6fc221ea8c31",
+     "title": "Programming Technical Lead | Chef ·fe technique de programmation",
+     "url": "https://jobs.lever.co/bhvr/72b9b933-356b-4f25-8484-6fc221ea8c31",
+     "location": "Montreal, QC",
+     "first_seen": "2026-10-13T12:28Z",
+     "last_seen": "2026-10-13T12:28Z",
+     "closed_at": null,
+     "match": 0
+    },
+    "73721ae2-407d-42d4-828b-79058522d02c": {
+     "id": "73721ae2-407d-42d4-828b-79058522d02c",
+     "title": "Project Manager - 7 Days to Die | Gestionnaire de projet - 7 Days to Die",
+     "url": "https://jobs.lever.co/bhvr/73721ae2-407d-42d4-828b-79058522d02c",
+     "location": "Montreal, QC",
+     "first_seen": "2026-10-13T12:28Z",
+     "last_seen": "2026-10-13T12:28Z",
+     "closed_at": null,
+     "match": 0
+    },
+    "7249200c-5107-496f-9dd2-41967fd30adf": {
+     "id": "7249200c-5107-496f-9dd2-41967fd30adf",
+     "title": "Project Manager - Dead by Daylight | Gestionnaire de projet - Dead by Daylight",
+     "url": "https://jobs.lever.co/bhvr/7249200c-5107-496f-9dd2-41967fd30adf",
+     "location": "Montreal, QC",
+     "first_seen": "2026-10-13T12:28Z",
+     "last_seen": "2026-10-13T12:28Z",
+     "closed_at": null,
+     "match": 0
+    },
+    "1741a086-3461-47d7-8d03-0eb4e305c6bf": {
+     "id": "1741a086-3461-47d7-8d03-0eb4e305c6bf",
+     "title": "Project manager – Immersive | Gestionnaire de projet – Immersif",
+     "url": "https://jobs.lever.co/bhvr/1741a086-3461-47d7-8d03-0eb4e305c6bf",
+     "location": "Montreal, QC",
+     "first_seen": "2026-10-13T12:28Z",
+     "last_seen": "2026-10-13T12:28Z",
+     "closed_at": null,
+     "match": 0
+    },
+    "cffbac21-9376-4095-9543-b39c22aef996": {
+     "id": "cffbac21-9376-4095-9543-b39c22aef996",
+     "title": "Release Manager - 7 Days to Die | Responsable du Déploiement - 7 Days to Die",
+     "url": "https://jobs.lever.co/bhvr/cffbac21-9376-4095-9543-b39c22aef996",
+     "location": "Montreal, QC",
+     "first_seen": "2026-10-13T12:28Z",
+     "last_seen": "2026-10-13T12:28Z",
+     "closed_at": null,
+     "match": 0
+    },
+    "e7cd98ec-d9af-406a-b23e-6fba91f0178b": {
+     "id": "e7cd98ec-d9af-406a-b23e-6fba91f0178b",
+     "title": "Sales & Partnerships Manager | Gestionnaire des ventes et partenariats",
+     "url": "https://jobs.lever.co/bhvr/e7cd98ec-d9af-406a-b23e-6fba91f0178b",
+     "location": "Montreal, QC",
+     "first_seen": "2026-10-13T12:28Z",
+     "last_seen": "2026-10-13T12:28Z",
+     "closed_at": null,
+     "match": 0
+    },
+    "976b2a8c-9cb4-4066-a755-d0994af408c2": {
+     "id": "976b2a8c-9cb4-4066-a755-d0994af408c2",
+     "title": "Senior 3D  Character Artist - 7 Days to Die | Artiste de personnages 3D  sénior·e - 7 Days to Die",
+     "url": "https://jobs.lever.co/bhvr/976b2a8c-9cb4-4066-a755-d0994af408c2",
+     "location": "Montreal, QC",
+     "first_seen": "2026-10-13T12:28Z",
+     "last_seen": "2026-10-13T12:28Z",
+     "closed_at": null,
+     "match": 0
+    },
+    "18024240-e637-409f-a647-b422541e2dc7": {
+     "id": "18024240-e637-409f-a647-b422541e2dc7",
+     "title": "Senior 3D Character Artist - Dead By Daylight | Artiste de personnage sénior·e 3D  Dead By Daylight",
+     "url": "https://jobs.lever.co/bhvr/18024240-e637-409f-a647-b422541e2dc7",
+     "location": "Montreal, QC",
+     "first_seen": "2026-10-13T12:28Z",
+     "last_seen": "2026-10-13T12:28Z",
+     "closed_at": null,
+     "match": 0
+    },
+    "898bf3c2-0b13-435a-b878-a11c5ae91498": {
+     "id": "898bf3c2-0b13-435a-b878-a11c5ae91498",
+     "title": "Senior Backend Programmer | Programmeur·euse Backend Sénior·e",
+     "url": "https://jobs.lever.co/bhvr/898bf3c2-0b13-435a-b878-a11c5ae91498",
+     "location": "Montreal, QC",
+     "first_seen": "2026-10-13T12:28Z",
+     "last_seen": "2026-10-13T12:28Z",
+     "closed_at": null,
+     "match": 0
+    },
+    "fc30188d-1727-4fd2-902a-8c5148ba3330": {
+     "id": "fc30188d-1727-4fd2-902a-8c5148ba3330",
+     "title": "Senior Financial Analyst & Planification | Analyste financier·ère et planification sénior·e",
+     "url": "https://jobs.lever.co/bhvr/fc30188d-1727-4fd2-902a-8c5148ba3330",
+     "location": "Montreal, QC",
+     "first_seen": "2026-10-13T12:28Z",
+     "last_seen": "2026-10-13T12:28Z",
+     "closed_at": null,
+     "match": 0
+    },
+    "8c96a092-b775-4791-b70f-10629efb39ed": {
+     "id": "8c96a092-b775-4791-b70f-10629efb39ed",
+     "title": "Senior Game Designer  - Dead by Daylight | Concepteur·trice de jeu senior·e Senior·e - Dead by Daylight",
+     "url": "https://jobs.lever.co/bhvr/8c96a092-b775-4791-b70f-10629efb39ed",
+     "location": "Montreal, QC",
+     "first_seen": "2026-10-13T12:28Z",
+     "last_seen": "2026-10-13T12:28Z",
+     "closed_at": null,
+     "match": 0
+    },
+    "311c4d91-6a01-43f9-b1c1-16d9799f663b": {
+     "id": "311c4d91-6a01-43f9-b1c1-16d9799f663b",
+     "title": "Senior Game Designer - 7 days to die| Concepteur ·trice  de jeu Senior ·e - 7 days to die",
+     "url": "https://jobs.lever.co/bhvr/311c4d91-6a01-43f9-b1c1-16d9799f663b",
+     "location": "Montreal, QC",
+     "first_seen": "2026-10-13T12:28Z",
+     "last_seen": "2026-10-13T12:28Z",
+     "closed_at": null,
+     "match": 0
+    },
+    "fcf3fe78-b497-4ce4-b8c7-72543048607a": {
+     "id": "fcf3fe78-b497-4ce4-b8c7-72543048607a",
+     "title": "Senior IT Project Technician | Technicien·ne sénior·e Projets IT",
+     "url": "https://jobs.lever.co/bhvr/fcf3fe78-b497-4ce4-b8c7-72543048607a",
+     "location": "Montreal, QC",
+     "first_seen": "2026-10-13T12:28Z",
+     "last_seen": "2026-10-13T12:28Z",
+     "closed_at": null,
+     "match": 0
+    },
+    "36c9db9c-2e1a-4ab3-b3fa-508bef9f1a48": {
+     "id": "36c9db9c-2e1a-4ab3-b3fa-508bef9f1a48",
+     "title": "Senior Learning and Development Advisor |Conseiller·ère en Apprentissage et Développement Senior·e",
+     "url": "https://jobs.lever.co/bhvr/36c9db9c-2e1a-4ab3-b3fa-508bef9f1a48",
+     "location": "Montreal, QC",
+     "first_seen": "2026-10-13T12:28Z",
+     "last_seen": "2026-10-13T12:28Z",
+     "closed_at": null,
+     "match": 0
+    },
+    "3fb576fc-688a-4fad-882d-8147f4665a69": {
+     "id": "3fb576fc-688a-4fad-882d-8147f4665a69",
+     "title": "Senior Narrative Designer – Unannounced project | Concepteur·rice de narratif Sénior·e – Projet non-annoncé.",
+     "url": "https://jobs.lever.co/bhvr/3fb576fc-688a-4fad-882d-8147f4665a69",
+     "location": "Montreal, QC",
+     "first_seen": "2026-10-13T12:28Z",
+     "last_seen": "2026-10-13T12:28Z",
+     "closed_at": null,
+     "match": 0
+    },
+    "5664e969-5b54-462b-81ee-53c5effca753": {
+     "id": "5664e969-5b54-462b-81ee-53c5effca753",
+     "title": "Senior Payable Specialist | Spécialiste des comptes fournisseurs sénior·e",
+     "url": "https://jobs.lever.co/bhvr/5664e969-5b54-462b-81ee-53c5effca753",
+     "location": "Montreal, QC",
+     "first_seen": "2026-10-13T12:28Z",
+     "last_seen": "2026-10-13T12:28Z",
+     "closed_at": null,
+     "match": 0
+    },
+    "c2ade0ce-be37-4374-9b6c-872b50ad1b64": {
+     "id": "c2ade0ce-be37-4374-9b6c-872b50ad1b64",
+     "title": "Senior Technical Animator - Unannounced project | Animateur·trice technique sénior·e - Projet non annoncé",
+     "url": "https://jobs.lever.co/bhvr/c2ade0ce-be37-4374-9b6c-872b50ad1b64",
+     "location": "Montreal, QC",
+     "first_seen": "2026-10-13T12:28Z",
+     "last_seen": "2026-10-13T12:28Z",
+     "closed_at": null,
+     "match": 0
+    },
+    "c8ae6c99-8c7d-4bab-bf33-a1e2e0d8c446": {
+     "id": "c8ae6c99-8c7d-4bab-bf33-a1e2e0d8c446",
+     "title": "Senior UX Designer - Central Technology | Concepteur·trice UX sénior·e - Technologies centrales",
+     "url": "https://jobs.lever.co/bhvr/c8ae6c99-8c7d-4bab-bf33-a1e2e0d8c446",
+     "location": "Montreal, QC",
+     "first_seen": "2026-10-13T12:28Z",
+     "last_seen": "2026-10-13T12:28Z",
+     "closed_at": null,
+     "match": 0
+    },
+    "e2849254-012f-4113-9012-de8bb39cf2af": {
+     "id": "e2849254-012f-4113-9012-de8bb39cf2af",
+     "title": "Systems Programmer - 7 Days to Die | Programmeur·euse systèmes  7 Days to Die",
+     "url": "https://jobs.lever.co/bhvr/e2849254-012f-4113-9012-de8bb39cf2af",
+     "location": "Montreal, QC",
+     "first_seen": "2026-10-13T12:28Z",
+     "last_seen": "2026-10-13T12:28Z",
+     "closed_at": null,
+     "match": 0
+    }
+   },
+   "last_checked": "2026-10-13T12:28Z",
+   "error": null
+  }
+ }
+}
