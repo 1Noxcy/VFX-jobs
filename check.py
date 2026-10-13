@@ -4,15 +4,28 @@ from html.parser import HTMLParser
 import requests
 
 UA = {"User-Agent": "Mozilla/5.0 (veille-offres perso; 1 requete par studio / 5h)"}
-PRIO = ["vfx", "niagara", "technical artist", "tech artist", "unreal", "fx artist", "effects"]
-SEC = ["qa", "tester", "environment artist", "level artist", "3d artist", "generalist", "junior", "stage", "intern", "alternance", "apprenti"]
+PRIO = ["vfx", "niagara", "technical artist", "tech artist", "technical animator", "unreal", "fx artist", "effects", "shader", "lighting artist"]
+SEC = [r"\bqa\b", r"\btest(er|eur)?\b", r"\bstage\b", r"stagiaire", r"\bintern(ship)?\b", r"alternan", r"apprenti",
+       r"\bjunior", r"spontan", r"environment artist", r"level (artist|design)", r"3d (character |prop |environment )?artist",
+       r"artiste 3d", r"character artist", r"prop artist", r"vehicle artist", r"animat", r"generalist", r"g\u00e9n\u00e9raliste"]
+GENERIC = {"lire la suite", "read more", "consult", "consulter", "backstage", "en savoir plus", "learn more", "voir plus",
+           "view all", "see all jobs", "\u00e9tudiants et jeunes dipl\u00f4m\u00e9s"}
 JOBWORDS = PRIO + SEC + ["artist", "artiste", "designer", "3d"]
 
 def score(t):
     t = t.lower()
     if any(k in t for k in PRIO): return 2
-    if any(re.search(r"\b" + re.escape(k) + r"\b", t) for k in SEC): return 1
+    if any(re.search(k, t) for k in SEC): return 1
     return 0
+
+def clean_title(t):
+    t = " ".join(t.split())
+    m = re.match(r"^(.*?)\s*(\d{2}/\d{2}/\d{4})$", t)
+    return (m.group(1), m.group(2)) if m else (t, None)
+
+def junk(t):
+    return ("{" in t or "}" in t or t.isupper() or t.lower() in GENERIC
+            or (len(t.split()) < 2 and "artist" not in t.lower()))
 
 def get(url, **kw):
     r = requests.get(url, headers=UA, timeout=25, **kw); r.raise_for_status(); return r
@@ -42,7 +55,7 @@ def page(s):
     from urllib.parse import urljoin
     p = Links(); p.feed(get(s["url"]).text); out = {}
     for h, t in p.links:
-        if h and 4 < len(t) < 140 and any(k in (t + h).lower() for k in JOBWORDS):
+        if h and 4 < len(t) < 140 and not junk(t) and any(k in (t + h).lower() for k in JOBWORDS):
             u = urljoin(s["url"], h); out[u] = {"id": u, "title": t, "url": u, "location": ""}
     return list(out.values())
 
@@ -66,15 +79,22 @@ def main():
     for s in studios:
         prev = old["studios"].get(s["name"], {"jobs": {}})
         e = {"city": s["city"], "country": s["country"], "url": s["url"], "email": s["email"], "confirmed": s["confirmed"],
-             "ats": s["ats"], "jobs": prev["jobs"], "last_checked": prev.get("last_checked"), "error": None}
+             "ats": s["ats"], "mode": prev.get("mode"), "warn": None, "jobs": prev["jobs"], "last_checked": prev.get("last_checked"), "error": None}
         if not s["url"]:
             e["error"] = "pas de lien (à compléter)"; new_state[s["name"]] = e; continue
         try:
-            found = {j["id"]: j for j in fetch(s)}
+            found = {}
+            for j in fetch(s):
+                j["title"], j["published"] = clean_title(j["title"]); found[j["id"]] = j
             e["last_checked"] = now
+            e["mode"] = "page" if s["ats"] == "page" else "api"
+            if e["mode"] == "page" and not found:
+                e["warn"] = "0 offre d\u00e9tect\u00e9e : le site charge peut-\u00eatre ses offres en JavaScript, \u00e0 v\u00e9rifier \u00e0 la main"
+            for jid in list(e["jobs"]):
+                if jid not in found and junk(e["jobs"][jid]["title"]): del e["jobs"][jid]
             for jid, j in found.items():
                 if jid in e["jobs"]:
-                    e["jobs"][jid].update(last_seen=now, closed_at=None)
+                    e["jobs"][jid].update(last_seen=now, closed_at=None, title=j["title"], published=j["published"], match=score(j["title"]))
                 else:
                     j.update(first_seen=now, last_seen=now, closed_at=None, match=score(j["title"]))
                     e["jobs"][jid] = j
