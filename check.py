@@ -4,22 +4,24 @@ from html.parser import HTMLParser
 import requests
 
 UA = {"User-Agent": "Mozilla/5.0 (veille-offres perso; 1 requete par studio / 5h)"}
-PRIO = ["vfx", "niagara", "technical artist", "tech artist", "technical animator", "unreal", "fx artist", "effects", "shader", "lighting artist"]
-SEC = [r"\bqa\b", r"\btest(er|eur)?\b", r"\bstage\b", r"stagiaire", r"\bintern(ship)?\b", r"alternan", r"\bapprenti(e|s)?\b",
-       r"\bjunior", r"spontan", r"environment artist", r"level (artist|design)", r"3d (character |prop |environment )?artist",
-       r"artiste 3d", r"character artist", r"prop artist", r"vehicle artist", r"animat", r"generalist", r"g\u00e9n\u00e9raliste"]
+PRIO = ["vfx", "niagara", "technical artist", "tech artist", "technical animator", "unreal", "fx artist", "effects", "shader", "lighting artist", "effets sp\u00e9ciaux", "effets visuels"]
+SEC = [r"\bqa\b", r"\btest(er|eur|euse)\b", r"spontan", r"environment artist", r"level (artist|design)",
+       r"3d (character |prop |environment )?artist", r"artiste 3d", r"artiste", r"\bartist\b", r"animat(or|eur|rice|trice)",
+       r"generalist artist", r"g\u00e9n\u00e9raliste 3d", r"modeler|modeleur|modeling|mod\u00e9lisation", r"technical art"]
+NEG = r"\b(hr|rh|business partner|recruit|talent acquisition|marketing|finance|financial|sales|payable|brand|communication|legal)\b"
 GENERIC = {"lire la suite", "read more", "consult", "consulter", "backstage", "en savoir plus", "learn more", "voir plus",
            "view all", "see all jobs", "\u00e9tudiants et jeunes dipl\u00f4m\u00e9s"}
 JOBWORDS = PRIO + SEC + ["artist", "artiste", "designer", "3d"]
 
 def score(t):
     t = t.lower()
+    if re.search(NEG, t): return 0
     if any(k in t for k in PRIO): return 2
     if any(re.search(k, t) for k in SEC): return 1
     return 0
 
 def clean_title(t):
-    t = " ".join(t.split())
+    t = re.sub(r"\s+\d{9,}$", "", " ".join(t.split()))
     m = re.match(r"^(.*?)\s*(\d{2}/\d{2}/\d{4})$", t)
     return (m.group(1), m.group(2)) if m else (t, None)
 
