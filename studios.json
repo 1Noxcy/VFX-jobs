@@ -628,11 +628,13 @@
   "name": "Reflector Entertainment",
   "city": "Montréal",
   "country": "CA",
-  "url": "https://jobs.lever.co/reflectorentertainment",
-  "ats": "lever",
-  "slug": "reflectorentertainment",
+  "url": null,
+  "ats": null,
+  "slug": null,
   "confirmed": true,
-  "email": null
+  "email": null,
+  "contact": "https://reflectorentertainment.com/en/careers",
+  "note": "Leur ancienne page Lever n'existe plus (le studio a licencié après Unknown 9). Page carrières à vérifier à la main."
  },
  {
   "name": "Gearbox Québec",

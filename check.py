@@ -7,10 +7,10 @@ UA = {"User-Agent": "Mozilla/5.0 (veille-offres perso; 1 requete par studio / 5h
 # --- Pertinence selon le CV : Real-Time VFX Artist / Unreal Generalist (Niagara, Blueprints, Landscape, Level Design, lighting) ---
 VFX = r"vfx|\bfx\b|niagara|effets? sp\u00e9ciaux|effets? visuels|visual effects|realtime effects|real-time effects"
 CORE = VFX + r"|technical artist|tech artist|artiste technique|shader|material artist|lighting artist|artiste (d.)?\u00e9clairage|lighter\b|level artist|artiste de niveaux?|unreal (generalist|artist)|g\u00e9n\u00e9raliste unreal"
-OK = (r"\bqa\b|\btest(er|eur|euse)s?\b|assurance qualit\u00e9|quality assurance|environment artist|artiste (d.)?environnement|level design|concepteur.{0,6} de niveau"
+OK = (r"\bqa\b|\btest(er|eur|euse)s?\b|assurance qualit\u00e9|quality assurance|level design|concepteur.{0,6} de niveau"
       r"|generalist|g\u00e9n\u00e9raliste|3d artist|artiste 3d|graphiste 3d|prop artist|vehicle artist|weapons? artist|artiste (de )?props?|modeler|modeleur|mod\u00e9lis|hard.?surface"
       r"|texture artist|texturing|cinematic artist|world build|landscape|spontan|\bunreal\b")
-NOT_FIT = (r"character|personnage|animat|rigg|\bui\b|\bux\b|interface|\b2d\b|pixel|illustrat|concept art|sound|audio|narrative|narrati"
+NOT_FIT = (r"environment artist|artiste (d.)?environnement|character|personnage|animat|rigg|\bui\b|\bux\b|interface|\b2d\b|pixel|illustrat|concept art|sound|audio|narrative|narrati"
            r"|community|data|producer|producteur|game designer|concepteur de jeu|writer|r\u00e9dact")
 NEG = r"\b(hr|rh|business partner|recruit|talent acquisition|marketing|finance|financial|sales|payable|brand|communication|legal|it)\b"
 BOSS = r"\b(lead|director|directeur|directrice|head|principal|manager|gestionnaire|chef|cheffe|superviseur|supervisor)\b"
@@ -25,6 +25,8 @@ def score(t):
     if re.search(NEG, t): return 0
     if re.search(r"program|d\u00e9velopp|developer|\bdev\b|engineer|ing\u00e9nieur", t) and not re.search(r"\bqa\b|test|artist", t): return 0
     if re.search(BOSS, t) and not vfx: return 0
+    if re.search(r"alternan|apprenti", t) and not re.search(r"\bstage|intern", t): return 0
+    if re.search(r"\blqa\b|linguist|proofread|relecteur|translat|traduct", t) and not re.search(r"french|fran\u00e7ais|francais", t): return 0
     if vfx: return 2
     if re.search(NOT_FIT, t) and not re.search(r"\bqa\b|test", t): return 0
     if re.search(CORE, t): return 2
@@ -73,6 +75,8 @@ def page(s):
             if LOC.match(t):
                 from urllib.parse import unquote
                 loc, t = t, unquote(u.rstrip("/").rsplit("/", 1)[-1]).replace("-", " ")
+            m = TAIL_LOC.match(t)
+            if m and not loc: t, loc = m.group(1), m.group(2)
             out[u] = {"id": u, "title": t, "url": u, "location": loc}
     return list(out.values())
 
@@ -105,10 +109,17 @@ def afjv(s):
         return ((o[0] - c[1]) if prev else (c[0] - o[1])), c[3]
     before = sum(1 if near(o, True)[0] < near(o, False)[0] else -1 for o in offers) > 0
     out = {}
-    for o in offers:
+    for i, o in enumerate(offers):
         u = o[2] if o[2].startswith("http") else "https://emploi.afjv.com" + o[2]
+        stops = [x[0] for x in offers[i + 1:i + 2]] + ([x[0] for x in comps if x[0] >= o[1]][:1] if before else []) + [o[1] + 1500]
+        seg = " ".join(H.unescape(re.sub(r"<[^>]+>", " ", re.sub(r"<a\s[^>]*>.*?</a>", " ", page[o[1]:min(stops)], flags=re.S))).split())
+        seg = re.sub(r"\b(Infographie|Conception|Programmation|Production|Presse|Communication|Commercial|Marketing|Son|Audio|Test|Management|Administration|Support|Enseignement|Formation|Animation|Autres?|Direction|Ressources humaines|Edition|\u00c9dition|Juridique|Finance)\b|/", " ", seg)
+        loc = ""
+        m = re.search(r"([A-Z\u00c0-\u00dd][\w\u00e0-\u00ff'-]*(?:[ -][A-Za-z\u00c0-\u00ff][\w\u00e0-\u00ff'-]*){0,3})\s*\((\d{2}|2A|2B)\)", seg)
+        if m: loc = m.group(1).strip()
+        elif re.search(r"t\u00e9l\u00e9travail|distanciel|remote", seg + o[3], re.I): loc = "\u00c0 distance"
         if u not in out:
-            out[u] = {"id": u, "title": o[3], "url": u, "location": "", "company": near(o, before)[1]}
+            out[u] = {"id": u, "title": o[3], "url": u, "location": loc, "company": near(o, before)[1]}
     return list(out.values())
 
 def workable(s):
@@ -117,7 +128,8 @@ def workable(s):
              "location": ", ".join(x for x in (j.get("city"), j.get("state"), j.get("country")) if x),
              "url": j.get("url") or f"https://apply.workable.com/{s['slug']}/j/{j['shortcode']}/"} for j in d.get("jobs", [])]
 
-LOC = re.compile(r"^[\w .'-]+, [A-Z]{2,3}, [\w .'-]+$")
+LOC = re.compile(r"^[\w.'-]+(?: [\w.'-]+)?, [A-Z]{2,3}, [\w .'-]+$")
+TAIL_LOC = re.compile(r"^(.*)\s+([A-Z\u00c0-\u00dd][\w\u00e0-\u00ff.'-]+), ([A-Z]{2}), ([A-Z]{2,3})(?: (?:New|Nouveau))?$")
 
 def fetch(s):
     jobs = fetch_raw(s)
@@ -148,7 +160,8 @@ def main():
     for s in studios:
         prev = old["studios"].get(s["name"], {"jobs": {}})
         e = {"city": s["city"], "country": s["country"], "url": s["url"], "email": s.get("email"), "contact": s.get("contact"), "social": s.get("social"), "note": s.get("note"), "confirmed": s["confirmed"],
-             "ats": s["ats"], "mode": prev.get("mode"), "warn": None, "jobs": prev["jobs"], "last_checked": prev.get("last_checked"), "error": None}
+             "ats": s["ats"], "mode": prev.get("mode"), "warn": None, "jobs": prev["jobs"], "last_checked": prev.get("last_checked"), "error": None,
+             "since": prev.get("since") if prev.get("since") and prev.get("ats") == s["ats"] else now}
         if not s["url"]:
             e["mode"] = "contact"
             via = s.get("email") or s.get("contact") or s.get("social")
@@ -168,7 +181,7 @@ def main():
                 if jid not in found and junk(e["jobs"][jid]["title"]): del e["jobs"][jid]
             for jid, j in found.items():
                 if jid in e["jobs"]:
-                    e["jobs"][jid].update(last_seen=now, closed_at=None, title=j["title"], published=j["published"], match=score(j["title"]))
+                    e["jobs"][jid].update(last_seen=now, closed_at=None, title=j["title"], published=j["published"], match=score(j["title"]), location=j.get("location") or e["jobs"][jid].get("location", ""), company=j.get("company") or e["jobs"][jid].get("company"))
                 else:
                     j.update(first_seen=now, last_seen=now, closed_at=None, match=score(j["title"]))
                     e["jobs"][jid] = j
