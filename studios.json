@@ -75,11 +75,14 @@
   "name": "Focus Entertainment / Pullup",
   "city": "Paris",
   "country": "FR",
-  "url": null,
-  "ats": null,
+  "url": "https://pullupent.com/en/career/open-positions",
+  "ats": "page",
   "slug": null,
   "confirmed": false,
-  "email": null
+  "email": null,
+  "contact": "https://pullupent.com/",
+  "social": null,
+  "note": "Bon domaine trouvé : pullupent.com (l'ancien lien pullupentertainment.com ne répond pas). La liste des offres est chargée en JavaScript."
  },
  {
   "name": "Nacon",
@@ -202,16 +205,6 @@
   "email": null
  },
  {
-  "name": "Drakhar Studio",
-  "city": "Lyon",
-  "country": "FR",
-  "url": null,
-  "ats": null,
-  "slug": null,
-  "confirmed": false,
-  "email": null
- },
- {
   "name": "Passtech Games",
   "city": "Lyon",
   "country": "FR",
@@ -229,7 +222,10 @@
   "ats": null,
   "slug": null,
   "confirmed": false,
-  "email": null
+  "email": null,
+  "contact": "https://www.oldskullgames.com/",
+  "social": "https://x.com/oldskullgames",
+  "note": "Recrute (offres vues : Game Director, QA Manager, Studio Art Director, candidature spontanée). Page offres exacte non trouvée, site bloque la lecture automatique."
  },
  {
   "name": "Artefacts Studio",
@@ -242,74 +238,17 @@
   "email": null
  },
  {
-  "name": "Kiupe",
-  "city": "Auvergne-Rhône-Alpes",
-  "country": "FR",
-  "url": null,
-  "ats": null,
-  "slug": null,
-  "confirmed": false,
-  "email": null
- },
- {
-  "name": "Kiniro",
-  "city": "Auvergne-Rhône-Alpes",
-  "country": "FR",
-  "url": null,
-  "ats": null,
-  "slug": null,
-  "confirmed": false,
-  "email": null
- },
- {
-  "name": "Upper Byte",
-  "city": "Auvergne-Rhône-Alpes",
-  "country": "FR",
-  "url": null,
-  "ats": null,
-  "slug": null,
-  "confirmed": false,
-  "email": null
- },
- {
-  "name": "Agharta Studio",
-  "city": "Auvergne-Rhône-Alpes",
-  "country": "FR",
-  "url": null,
-  "ats": null,
-  "slug": null,
-  "confirmed": false,
-  "email": null
- },
- {
-  "name": "Little Worlds Studio",
-  "city": "Auvergne-Rhône-Alpes",
-  "country": "FR",
-  "url": null,
-  "ats": null,
-  "slug": null,
-  "confirmed": false,
-  "email": null
- },
- {
-  "name": "Mi-Clos Studio",
-  "city": "Auvergne-Rhône-Alpes",
-  "country": "FR",
-  "url": null,
-  "ats": null,
-  "slug": null,
-  "confirmed": false,
-  "email": null
- },
- {
   "name": "Black Muffin",
-  "city": "Auvergne-Rhône-Alpes",
+  "city": "Lieuran-lès-Béziers (Hérault) — a quitté Lyon",
   "country": "FR",
   "url": null,
   "ats": null,
   "slug": null,
   "confirmed": false,
-  "email": null
+  "email": null,
+  "contact": "https://blackmuffinstudio.com/contact/",
+  "social": "https://x.com/blackmuffingame",
+  "note": "Studio de Night Call. Société active (societe.com). Page contact trouvée, email non lu (site bloque la lecture automatique)."
  },
  {
   "name": "OSome Studio",
@@ -319,17 +258,23 @@
   "ats": null,
   "slug": null,
   "confirmed": false,
-  "email": null
+  "email": "jobs@osome-studio.com",
+  "contact": "https://www.osome-studio.com/contact",
+  "social": "https://x.com/OSomeStudio",
+  "note": "Candidatures par email jobs@ (lu sur le site officiel). Projet non annoncé en cours."
  },
  {
   "name": "Studio Chahut",
-  "city": "Auvergne-Rhône-Alpes",
+  "city": "Grenoble",
   "country": "FR",
   "url": null,
   "ats": null,
   "slug": null,
   "confirmed": false,
-  "email": null
+  "email": null,
+  "contact": null,
+  "social": "https://x.com/StudioChahut",
+  "note": "Studio à Grenoble (pas Lyon). Pas de site trouvé ; compte X."
  },
  {
   "name": "Lugludum",
@@ -339,7 +284,10 @@
   "ats": null,
   "slug": null,
   "confirmed": false,
-  "email": null
+  "email": "contact@lugludum.com",
+  "contact": "https://lugludum.com/",
+  "social": "https://x.com/lugludum",
+  "note": "Micro-studio (1 personne, prestations). Pas de page jobs ; contact@ lu sur le site."
  },
  {
   "name": "Tabemasu Games",
@@ -349,7 +297,10 @@
   "ats": null,
   "slug": null,
   "confirmed": false,
-  "email": null
+  "email": null,
+  "contact": null,
+  "social": "https://x.com/TabemasuGames",
+  "note": "Pas de site trouvé ; comptes X/Facebook. Activité récente non confirmée."
  },
  {
   "name": "Pango Studio",
@@ -359,27 +310,10 @@
   "ats": null,
   "slug": null,
   "confirmed": false,
-  "email": null
- },
- {
-  "name": "Magiko Gaming",
-  "city": "Auvergne-Rhône-Alpes",
-  "country": "FR",
-  "url": null,
-  "ats": null,
-  "slug": null,
-  "confirmed": false,
-  "email": null
- },
- {
-  "name": "Gloomywood",
-  "city": "Auvergne-Rhône-Alpes",
-  "country": "FR",
-  "url": null,
-  "ats": null,
-  "slug": null,
-  "confirmed": false,
-  "email": null
+  "email": "contact@studio-pango.com",
+  "contact": "https://www.studio-pango.com",
+  "social": "https://www.instagram.com/studio_pango",
+  "note": "Jeux éducatifs 3-6 ans (2 à 10 personnes). Pas de page recrutement : candidature spontanée par contact@ (lu sur le site)."
  },
  {
   "name": "Rebel Pixel",
@@ -389,7 +323,10 @@
   "ats": null,
   "slug": null,
   "confirmed": false,
-  "email": null
+  "email": null,
+  "contact": null,
+  "social": null,
+  "note": "Studio lyonnais de Stardream. Aucun site officiel ni réseau trouvé."
  },
  {
   "name": "Sunny Lab",
@@ -399,7 +336,10 @@
   "ats": null,
   "slug": null,
   "confirmed": false,
-  "email": null
+  "email": null,
+  "contact": null,
+  "social": null,
+  "note": "Studio parisien de The Witch's Bakery (sorti août 2026, éditeur Silver Lining Interactive). Aucun site officiel trouvé."
  },
  {
   "name": "Parallel Studio",
@@ -409,7 +349,10 @@
   "ats": null,
   "slug": null,
   "confirmed": false,
-  "email": null
+  "email": null,
+  "contact": "https://parallelstudio.tv/",
+  "social": "https://www.instagram.com/parallel_studio_/",
+  "note": "Plutôt studio d'animation/pub (Chanel, Renault) que studio de jeu. Ni page jobs ni email : contact via Instagram."
  },
  {
   "name": "Moon Valley",
@@ -419,67 +362,75 @@
   "ats": null,
   "slug": null,
   "confirmed": false,
-  "email": null
+  "email": null,
+  "contact": null,
+  "social": null,
+  "note": "Seulement cité par le CNC (Games to Screen 2026). Aucun site trouvé."
  },
  {
   "name": "Game Atelier",
   "city": "Paris",
   "country": "FR",
-  "url": null,
-  "ats": null,
+  "url": "https://www.game-atelier.com/careers",
+  "ats": "page",
   "slug": null,
   "confirmed": false,
-  "email": null
+  "email": null,
+  "contact": "https://www.game-atelier.com/jobapplication",
+  "social": "https://www.instagram.com/gameatelier/",
+  "note": "Page carrières officielle, aucune offre ouverte ; candidature spontanée via formulaire (portfolio + CV)."
  },
  {
   "name": "Magic Design Studios",
-  "city": "À confirmer",
+  "city": "Montpellier",
   "country": "FR",
-  "url": null,
-  "ats": null,
+  "url": "https://www.magicdesignstudios.com/jobs-alert",
+  "ats": "page",
   "slug": null,
   "confirmed": false,
-  "email": null
+  "email": "job@magicdesignstudios.com",
+  "contact": "https://www.magicdesignstudios.com/contact",
+  "social": null,
+  "note": "Page jobs officielle : Level Artist (CDD 6 mois, peut mener à un CDI) et Animateur 2D. Candidature par email avec CV + portfolio obligatoire."
  },
  {
   "name": "Ishtar Games",
-  "city": "À confirmer",
+  "city": "Lille",
   "country": "FR",
-  "url": null,
-  "ats": null,
+  "url": "https://ishtar.games/join-us/",
+  "ats": "page",
   "slug": null,
   "confirmed": false,
-  "email": null
+  "email": "apply@ishtar.games",
+  "contact": "https://ishtar.games/",
+  "social": null,
+  "note": "Page carrières officielle. Leurs offres sont publiées sur l'AFJV (emploi.afjv.com/annonces-societes/1843). Candidature spontanée : apply@ishtar.games."
  },
  {
   "name": "Eko Software",
-  "city": "À confirmer",
+  "city": "Choisy-le-Roi (Paris)",
   "country": "FR",
   "url": null,
   "ats": null,
   "slug": null,
   "confirmed": false,
-  "email": null
- },
- {
-  "name": "Green Panda Games",
-  "city": "À confirmer",
-  "country": "FR",
-  "url": null,
-  "ats": null,
-  "slug": null,
-  "confirmed": false,
-  "email": null
+  "email": null,
+  "contact": null,
+  "social": "https://fr.linkedin.com/company/eko-software",
+  "note": "Filiale de Nacon. Pas de page carrières officielle trouvée ; ses offres sont publiées sur l'AFJV (emploi.afjv.com/annonces-societes/72)."
  },
  {
   "name": "Atlantis Studio",
   "city": "Avignon",
   "country": "FR",
-  "url": null,
-  "ats": null,
+  "url": "https://atlantisstudio.fr/fr/recruitment/",
+  "ats": "page",
   "slug": null,
   "confirmed": false,
-  "email": null
+  "email": null,
+  "contact": "https://atlantisstudio.fr/fr/",
+  "social": "https://www.linkedin.com/company/atlantisstudiogames/",
+  "note": "Page recrutement officielle. Jeu en cours : Beyond the Dark: Nightwatch (Switch 2)."
  },
  {
   "name": "Chipo & Juan",
@@ -489,7 +440,10 @@
   "ats": null,
   "slug": null,
   "confirmed": false,
-  "email": null
+  "email": null,
+  "contact": null,
+  "social": null,
+  "note": "Société enregistrée à Sarlat (Dordogne) selon verif.com, présentée comme marseillaise par risingSud. Aucun site trouvé."
  },
  {
   "name": "Gamearly",
@@ -499,27 +453,36 @@
   "ats": null,
   "slug": null,
   "confirmed": false,
-  "email": null
+  "email": null,
+  "contact": null,
+  "social": "https://x.com/Gamearly",
+  "note": "Plateforme de co-création de jeux (pas un studio de dev classique). Pas de site officiel trouvé ; compte X actif."
  },
  {
   "name": "Dev-Id",
-  "city": "Région Sud",
+  "city": "Marseille, Toulouse, Paris, Annecy",
   "country": "FR",
-  "url": null,
-  "ats": null,
+  "url": "https://www.dev-id.fr/en/postuler",
+  "ats": "page",
   "slug": null,
   "confirmed": false,
-  "email": null
+  "email": "contact@dev-id.fr",
+  "contact": "https://www.dev-id.fr/",
+  "social": null,
+  "note": "Agence numérique (web, mobile, 3D/XR, un peu de jeu) plutôt que studio de jeu. Page « Postuler » officielle."
  },
  {
   "name": "Exkee",
-  "city": "Région Sud",
+  "city": "Marseille",
   "country": "FR",
   "url": null,
   "ats": null,
   "slug": null,
   "confirmed": false,
-  "email": null
+  "email": "contact@exkee.com",
+  "contact": "https://www.exkee.com/contact/",
+  "social": "https://www.linkedin.com/company/exkee/",
+  "note": "Pas de page jobs : le site dit d'écrire à contact@ pour toute candidature. Dernière sortie : The 7th Guest Remake (juin 2026)."
  },
  {
   "name": "Galéjade Studio",
@@ -529,37 +492,36 @@
   "ats": null,
   "slug": null,
   "confirmed": false,
-  "email": null
+  "email": null,
+  "contact": null,
+  "social": null,
+  "note": "Seulement un profil LinkedIn personnel lié au studio ; aucun site ni page entreprise trouvés."
  },
  {
   "name": "Iconik",
-  "city": "Région Sud",
+  "city": "Carqueiranne (près de Toulon)",
   "country": "FR",
   "url": null,
   "ats": null,
   "slug": null,
   "confirmed": false,
-  "email": null
- },
- {
-  "name": "Nothing2install",
-  "city": "Région Sud",
-  "country": "FR",
-  "url": null,
-  "ats": null,
-  "slug": null,
-  "confirmed": false,
-  "email": null
+  "email": null,
+  "contact": "https://iconik.com",
+  "social": null,
+  "note": "Studio transmédia (2D, 3D, VR, temps réel). Pas de page jobs ni email visible sur la page d'accueil."
  },
  {
   "name": "Reydio Games",
-  "city": "Région Sud",
+  "city": "Cannes",
   "country": "FR",
   "url": null,
   "ats": null,
   "slug": null,
   "confirmed": false,
-  "email": null
+  "email": null,
+  "contact": null,
+  "social": null,
+  "note": "Jeu en cours : Synthopolis. Pas de site officiel ; seulement une page IndieDB."
  },
  {
   "name": "Spill Studio",
@@ -569,7 +531,10 @@
   "ats": null,
   "slug": null,
   "confirmed": false,
-  "email": null
+  "email": null,
+  "contact": null,
+  "social": null,
+  "note": "Pas de site confirmé (un spillstudios.com existe mais impossible de vérifier que c'est le même studio)."
  },
  {
   "name": "Behaviour Interactive",

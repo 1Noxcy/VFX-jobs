@@ -102,10 +102,13 @@ def main():
     new_state, alerts = {}, []
     for s in studios:
         prev = old["studios"].get(s["name"], {"jobs": {}})
-        e = {"city": s["city"], "country": s["country"], "url": s["url"], "email": s["email"], "confirmed": s["confirmed"],
+        e = {"city": s["city"], "country": s["country"], "url": s["url"], "email": s.get("email"), "contact": s.get("contact"), "social": s.get("social"), "note": s.get("note"), "confirmed": s["confirmed"],
              "ats": s["ats"], "mode": prev.get("mode"), "warn": None, "jobs": prev["jobs"], "last_checked": prev.get("last_checked"), "error": None}
         if not s["url"]:
-            e["error"] = "pas de lien (à compléter)"; new_state[s["name"]] = e; continue
+            e["mode"] = "contact"
+            via = s.get("email") or s.get("contact") or s.get("social")
+            e["warn"] = ("Pas de page offres : candidature spontan\u00e9e via " + via) if via else "Aucun site ni r\u00e9seau trouv\u00e9 (\u00e0 chercher \u00e0 la main)"
+            new_state[s["name"]] = e; continue
         try:
             source_changed = (bool(prev.get("ats")) and prev.get("ats") != s["ats"]) or not prev.get("last_checked")
             found = {}

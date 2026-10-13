@@ -23,7 +23,7 @@ td{padding:4px 8px 4px 0;vertical-align:top;font-size:13px}
 <select id="co"><option value="">France + Canada</option><option>FR</option><option>CA</option></select>
 </div>
 <div id="list"></div>
-<p class="mu">✅ lecture fiable (Lever/Greenhouse) · 🟡 lecture approximative de la page · ⚠️ problème ou rien détecté</p>
+<p class="mu">✅ lecture fiable · 🟡 lecture approximative de la page · ⚠️ problème ou rien détecté · 📩 pas de page offres, candidature spontanée · ❔ rien trouvé</p>
 <details><summary>Studios surveillés <span class="mu" id="cnt"></span></summary><table id="st"></table></details>
 <script>
 let D=null;const $=id=>document.getElementById(id);
@@ -45,8 +45,8 @@ const esc=t=>String(t).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",
 fetch("data/jobs.json?"+Date.now()).then(r=>r.json()).then(d=>{D=d;
   $("upd").textContent=d.updated?"Dernière vérification : "+fmt(d.updated):"Pas encore de données (lance le workflow une première fois).";
   const e=Object.entries(d.studios);$("cnt").textContent="("+e.length+")";
-  $("st").innerHTML=e.map(([n,s])=>`<tr><td>${s.error||s.warn?"⚠️":s.mode=="page"?"🟡":"✅"}</td><td>${s.url?`<a href="${s.url}" target="_blank" rel="noopener">${esc(n)}</a>`:esc(n)}</td>
-  <td class="mu">${s.error?esc(s.error):s.warn?esc(s.warn):Object.values(s.jobs).filter(j=>!j.closed_at).length+" offres ouvertes"+(s.mode=="page"?" (lecture approximative)":"")+" · vérifié "+fmt(s.last_checked)}${s.email?" · "+esc(s.email):""}</td></tr>`).join("");
+  $("st").innerHTML=e.map(([n,s])=>`<tr><td>${s.mode=="contact"?(s.email||s.contact||s.social?"📩":"❔"):s.error||s.warn?"⚠️":s.mode=="page"?"🟡":"✅"}</td><td>${(s.url||s.contact||s.social)?`<a href="${s.url||s.contact||s.social}" target="_blank" rel="noopener">${esc(n)}</a>`:esc(n)}</td>
+  <td class="mu">${s.error?esc(s.error):s.warn?esc(s.warn):Object.values(s.jobs).filter(j=>!j.closed_at).length+" offres ouvertes"+(s.mode=="page"?" (lecture approximative)":"")+" · vérifié "+fmt(s.last_checked)}${s.email&&s.mode!="contact"?" · "+esc(s.email):""}${s.note?`<br><span style="font-size:12px">${esc(s.note)}</span>`:""}</td></tr>`).join("");
   render()}).catch(()=>$("upd").textContent="Impossible de lire data/jobs.json");
 ["q","pr","co"].forEach(i=>$(i).addEventListener("input",render));
 </script></body></html>
